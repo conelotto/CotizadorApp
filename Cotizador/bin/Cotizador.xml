@@ -6,1009 +6,9 @@ Cotizador
 </name>
 </assembly>
 <members>
-<member name="M:Cotizador.Modulo.EnlazarCombo(System.Web.UI.WebControls.DropDownList@,System.Object,System.String,System.String,System.Boolean)">
-	<summary>
- Enlaza el combo a un origen de datos
- </summary>
-	<param name="drop">DropDowlist a enlazar</param>
-	<param name="Data">Origen de datos</param>
-	<param name="Codigo">Valor del ValueField</param>
-	<param name="Texto">Valor del textField</param>
-	<param name="InsertarVacio">Indicador si se incluye un item vacio</param>
-	<remarks>EnlazarCombo</remarks>
-</member><member name="M:Cotizador.Modulo.EnlazarCombo(System.Web.UI.WebControls.DropDownList@,Ferreyros.Utiles.Estructuras.EntidadTablaMaestra,System.Boolean,Ferreyros.BCCotizador.bcTablaMaestra@)">
-	<summary>
- Establece el origen de datos a una entidad de la TablaMaestra
- </summary>
-	<param name="drop">DropDowlist a enlazar</param>
-	<param name="Entidad">Nombre de la entidad de la TablaMaestra</param>
-	<param name="InsertarVacio">Indicador si se incluye un item vacio</param>
-	<param name="oTablaMaestra">Bussines Component que contiene la operacion Buscar</param>
-	<remarks>EnlazarCombo</remarks>
-</member><member name="F:Cotizador.frmAdmLineas.lblTitulo">
+<member name="F:Cotizador.frmAdmQuerys.lblTitulo">
 	<summary>
 lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCargar.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCargaNE.Head1">
-	<summary>
-Head1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCargaNE.frmCarga">
-	<summary>
-frmCarga control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCargaNE.Archivo">
-	<summary>
-Archivo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCargaNE.btnCargar">
-	<summary>
-btnCargar control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCargaNE.Label1">
-	<summary>
-Label1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCargaNE.hdnNombreCotizacionVersion">
-	<summary>
-hdnNombreCotizacionVersion control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCargaNE.hdnIdCotizacionVersion">
-	<summary>
-hdnIdCotizacionVersion control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCargaNE.hdnEstado">
-	<summary>
-hdnEstado control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmConfiguracionLineaResponsable.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmReporte.frmReporte">
-	<summary>
-Control frmReporte.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.frmAdmHomologacion.lblTitulo">
-	<summary>
-Control lblTitulo.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.Head1">
-	<summary>
-Control Head1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.HeadContent">
-	<summary>
-Control HeadContent.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.smMaster">
-	<summary>
-Control smMaster.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.imgLogo">
-	<summary>
-Control imgLogo.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.UpPanelHead">
-	<summary>
-Control UpPanelHead.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.HdnSessionID">
-	<summary>
-Control HdnSessionID.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.lnkCia">
-	<summary>
-Control lnkCia.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.lnkFavoritos">
-	<summary>
-Control lnkFavoritos.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.lnkContacto">
-	<summary>
-Control lnkContacto.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.MainContent">
-	<summary>
-Control MainContent.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.SapSite.idDerechos">
-	<summary>
-Control idDerechos.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.WebForm2.form1">
-	<summary>
-Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.frmAdmConfiguracionCampoLLave.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmDocumentoMarcadores.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSA.ID_COTIZACION">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSA.PRODUCTO">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.ITEM">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.FLUIDOS">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.DETALLE_PARTES">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.FECHA_I">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.MONTO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.MAQUINA">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.FAMILIA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.MODELO_BASE">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.MODELO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.PREFIJO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.MAQUINA_NUEVA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.NUMERO_SERIE">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.HOROMETRO_I">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.FECHA_HOROMETRO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.HORAS_PROMEDIO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.HOROMETRO_F">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.RENOVACION">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.RENOVACION_VAL">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.COD_DPTO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.DEPARTAMENTO">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSAResponse.E_RESULTADO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSAResponse.MENSAJE_RESULTADO">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSAResponse">
-	<comentarios/>
-</member><member name="F:Cotizador.frmAdmConsulta.form1">
-	<summary>
-Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.frmAdmConsulta.txtConsulta">
-	<summary>
-Control txtConsulta.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.frmAdmConsulta.btnConsulta">
-	<summary>
-Control btnConsulta.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.frmAdmQuerys.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.WebForm1.form1">
-	<summary>
-Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.WebForm1.Button1">
-	<summary>
-Control Button1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.WebForm1.Button3">
-	<summary>
-Control Button3.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.WebForm1.lblId">
-	<summary>
-Control lblId.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSA.ID_COTIZACION">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSA.PRODUCTO">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.ITEM">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.FLUIDOS">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.DETALLE_PARTES">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.FECHA_I">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.MONTO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.MAQUINA">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapQA.ZPRODWSCSA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.FAMILIA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.MODELO_BASE">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.MODELO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.PREFIJO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.MAQUINA_NUEVA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.NUMERO_SERIE">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.HOROMETRO_I">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.FECHA_HOROMETRO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.HORAS_PROMEDIO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.HOROMETRO_F">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.RENOVACION">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.RENOVACION_VAL">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.COD_DPTO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.DEPARTAMENTO">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapQA.ZMAQWSCSA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSAResponse.E_RESULTADO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSAResponse.MENSAJE_RESULTADO">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSAResponse">
-	<comentarios/>
-</member><member name="F:Cotizador.frmCotizacionRegistro.lblIdSession">
-	<summary>
-Control lblIdSession.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.frmAdmTarifas.exchkEncabezado">
-	<summary>
-Control exchkEncabezado.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.frmDescargarFTP.form1">
-	<summary>
-Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.frmAdmCampos.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmCargaNE.Head1">
-	<summary>
-Head1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmCargaNE.frmCarga">
-	<summary>
-frmCarga control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmCargaNE.Archivo">
-	<summary>
-Archivo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmCargaNE.btnCargar">
-	<summary>
-btnCargar control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmCargaNE.Label1">
-	<summary>
-Label1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmCargaNE.hdnASPArchivo">
-	<summary>
-hdnASPArchivo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmConfiguracionSeccion.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmConfiguracionTablas.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmEspecificacionTecnica.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador._Error.Head1">
-	<summary>
-Control Head1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador._Error.frmError">
-	<summary>
-Control frmError.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador._Error.Label2">
-	<summary>
-Control Label2.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador._Error.lblError">
-	<summary>
-Control lblError.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador._Error.lblSource">
-	<summary>
-Control lblSource.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.RoundedCornersExtender1">
-	<summary>
-RoundedCornersExtender1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.pnlToolBarOpciones">
-	<summary>
-pnlToolBarOpciones control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.lbnConsultar">
-	<summary>
-lbnConsultar control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.lbnLimpiar">
-	<summary>
-lbnLimpiar control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.lbnExportar">
-	<summary>
-lbnExportar control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.pnlDetalle">
-	<summary>
-pnlDetalle control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.lblCotizacion">
-	<summary>
-lblCotizacion control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.txtNumeroCotizacion">
-	<summary>
-txtNumeroCotizacion control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.lblCliente">
-	<summary>
-lblCliente control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.txtCliente">
-	<summary>
-txtCliente control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.lblEstado">
-	<summary>
-lblEstado control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.ddlEstado">
-	<summary>
-ddlEstado control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.lblModelo">
-	<summary>
-lblModelo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.txtModelo">
-	<summary>
-txtModelo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.lblVendedor">
-	<summary>
-lblVendedor control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.txtVendedor">
-	<summary>
-txtVendedor control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.Button1">
-	<summary>
-Button1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.btnModeloEspecificacion">
-	<summary>
-btnModeloEspecificacion control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.lblItems">
-	<summary>
-lblItems control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.gdvCotizacion">
-	<summary>
-gdvCotizacion control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionBusqueda.hidLimpiar">
-	<summary>
-hidLimpiar control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSA.ID_COTIZACION">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSA.PRODUCTO">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.ITEM">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.FLUIDOS">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.DETALLE_PARTES">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.FECHA_I">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.MONTO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.MAQUINA">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.FAMILIA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.MODELO_BASE">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.MODELO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.PREFIJO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.MAQUINA_NUEVA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.NUMERO_SERIE">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.HOROMETRO_I">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.FECHA_HOROMETRO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.HORAS_PROMEDIO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.HOROMETRO_F">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.RENOVACION">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.RENOVACION_VAL">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.COD_DPTO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.DEPARTAMENTO">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSAResponse.E_RESULTADO">
-	<comentarios/>
-</member><member name="P:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSAResponse.MENSAJE_RESULTADO">
-	<comentarios/>
-</member><member name="T:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSAResponse">
-	<comentarios/>
-</member><member name="F:Cotizador.frmErrorArchivoFTP.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmCargaArchivoRS.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="P:Cotizador.My.Resources.Resources.ResourceManager">
-	<summary>
-  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
-</summary>
-</member><member name="P:Cotizador.My.Resources.Resources.Culture">
-	<summary>
-  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
-  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
-</summary>
-</member><member name="T:Cotizador.My.Resources.Resources">
-	<summary>
-  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
-</summary>
-</member><member name="F:Cotizador.frmAdmDetallePartes.exchkEncabezado">
-	<summary>
-Control exchkEncabezado.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.RoundedCornersExtender1">
-	<summary>
-RoundedCornersExtender1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.pnlToolBarOpciones">
-	<summary>
-pnlToolBarOpciones control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.lbnConsultar">
-	<summary>
-lbnConsultar control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.lbnLimpiar">
-	<summary>
-lbnLimpiar control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.pnlDetalle">
-	<summary>
-pnlDetalle control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.lblCotizacion">
-	<summary>
-lblCotizacion control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.txtCotizacion">
-	<summary>
-txtCotizacion control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.lblCliente">
-	<summary>
-lblCliente control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.txtCliente">
-	<summary>
-txtCliente control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.lblModelo">
-	<summary>
-lblModelo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.txtModelo">
-	<summary>
-txtModelo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.lblItems">
-	<summary>
-lblItems control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmCotizacionAprobacion.gdvCotizacion">
-	<summary>
-gdvCotizacion control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmConfiguracionSolucionCombinada.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmLLaves.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.lblTitulo">
-	<summary>
-lblTitulo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.hdfCodigoBusqueda">
-	<summary>
-hdfCodigoBusqueda control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.hdfTipoBusqueda">
-	<summary>
-hdfTipoBusqueda control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.hdfUsuarioBusqueda">
-	<summary>
-hdfUsuarioBusqueda control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.hdfCodSeccionBusqueda">
-	<summary>
-hdfCodSeccionBusqueda control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.hdfDescripcionBusqueda">
-	<summary>
-hdfDescripcionBusqueda control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -1205,6 +205,1006 @@ Control imgCat.
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmAdmDocumentoMarcadores.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmDescargarFTP.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmAdmCampos.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.hdfCodigoBusqueda">
+	<summary>
+hdfCodigoBusqueda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.hdfTipoBusqueda">
+	<summary>
+hdfTipoBusqueda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.hdfUsuarioBusqueda">
+	<summary>
+hdfUsuarioBusqueda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.hdfCodSeccionBusqueda">
+	<summary>
+hdfCodSeccionBusqueda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmRegistroArchivoConfiguracion.hdfDescripcionBusqueda">
+	<summary>
+hdfDescripcionBusqueda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmErrorArchivoFTP.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador._Error.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador._Error.frmError">
+	<summary>
+Control frmError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador._Error.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador._Error.lblError">
+	<summary>
+Control lblError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador._Error.lblSource">
+	<summary>
+Control lblSource.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmAdmConfiguracionLineaResponsable.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmDetallePartes.exchkEncabezado">
+	<summary>
+Control exchkEncabezado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmAdmEspecificacionTecnica.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmCargaArchivoRS.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmConfiguracionSeccion.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.SapSite.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.HeadContent">
+	<summary>
+Control HeadContent.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.smMaster">
+	<summary>
+Control smMaster.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.imgLogo">
+	<summary>
+Control imgLogo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.UpPanelHead">
+	<summary>
+Control UpPanelHead.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.HdnSessionID">
+	<summary>
+Control HdnSessionID.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.lnkCia">
+	<summary>
+Control lnkCia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.lnkFavoritos">
+	<summary>
+Control lnkFavoritos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.lnkContacto">
+	<summary>
+Control lnkContacto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.MainContent">
+	<summary>
+Control MainContent.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.SapSite.idDerechos">
+	<summary>
+Control idDerechos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSA.ID_COTIZACION">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSA.PRODUCTO">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.ITEM">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.FLUIDOS">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.DETALLE_PARTES">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.FECHA_I">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.MONTO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZPRODWSCSA.MAQUINA">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapQA.ZPRODWSCSA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.FAMILIA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.MODELO_BASE">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.MODELO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.PREFIJO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.MAQUINA_NUEVA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.NUMERO_SERIE">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.HOROMETRO_I">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.FECHA_HOROMETRO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.HORAS_PROMEDIO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.HOROMETRO_F">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.RENOVACION">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.RENOVACION_VAL">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.COD_DPTO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZMAQWSCSA.DEPARTAMENTO">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapQA.ZMAQWSCSA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSAResponse.E_RESULTADO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSAResponse.MENSAJE_RESULTADO">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSAResponse">
+	<comentarios/>
+</member><member name="F:Cotizador.frmAdmConfiguracionCampoLLave.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCargar.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmConfiguracionTablas.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:Cotizador.Modulo.EnlazarCombo(System.Web.UI.WebControls.DropDownList@,System.Object,System.String,System.String,System.Boolean)">
+	<summary>
+ Enlaza el combo a un origen de datos
+ </summary>
+	<param name="drop">DropDowlist a enlazar</param>
+	<param name="Data">Origen de datos</param>
+	<param name="Codigo">Valor del ValueField</param>
+	<param name="Texto">Valor del textField</param>
+	<param name="InsertarVacio">Indicador si se incluye un item vacio</param>
+	<remarks>EnlazarCombo</remarks>
+</member><member name="M:Cotizador.Modulo.EnlazarCombo(System.Web.UI.WebControls.DropDownList@,Ferreyros.Utiles.Estructuras.EntidadTablaMaestra,System.Boolean,Ferreyros.BCCotizador.bcTablaMaestra@)">
+	<summary>
+ Establece el origen de datos a una entidad de la TablaMaestra
+ </summary>
+	<param name="drop">DropDowlist a enlazar</param>
+	<param name="Entidad">Nombre de la entidad de la TablaMaestra</param>
+	<param name="InsertarVacio">Indicador si se incluye un item vacio</param>
+	<param name="oTablaMaestra">Bussines Component que contiene la operacion Buscar</param>
+	<remarks>EnlazarCombo</remarks>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSA.ID_COTIZACION">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSA.PRODUCTO">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.ITEM">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.FLUIDOS">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.DETALLE_PARTES">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.FECHA_I">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.MONTO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA.MAQUINA">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapPRD.ZPRODWSCSA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.FAMILIA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.MODELO_BASE">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.MODELO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.PREFIJO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.MAQUINA_NUEVA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.NUMERO_SERIE">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.HOROMETRO_I">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.FECHA_HOROMETRO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.HORAS_PROMEDIO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.HOROMETRO_F">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.RENOVACION">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.RENOVACION_VAL">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.COD_DPTO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA.DEPARTAMENTO">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapPRD.ZMAQWSCSA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSAResponse.E_RESULTADO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSAResponse.MENSAJE_RESULTADO">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSAResponse">
+	<comentarios/>
+</member><member name="P:Cotizador.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Cotizador.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="T:Cotizador.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="F:Cotizador.frmAdmConfiguracionSolucionCombinada.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmConsulta.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmAdmConsulta.txtConsulta">
+	<summary>
+Control txtConsulta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmAdmConsulta.btnConsulta">
+	<summary>
+Control btnConsulta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmAdmLLaves.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCargaNE.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCargaNE.frmCarga">
+	<summary>
+frmCarga control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCargaNE.Archivo">
+	<summary>
+Archivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCargaNE.btnCargar">
+	<summary>
+btnCargar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCargaNE.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCargaNE.hdnNombreCotizacionVersion">
+	<summary>
+hdnNombreCotizacionVersion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCargaNE.hdnIdCotizacionVersion">
+	<summary>
+hdnIdCotizacionVersion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCargaNE.hdnEstado">
+	<summary>
+hdnEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionRegistro.lblIdSession">
+	<summary>
+Control lblIdSession.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmReporte.frmReporte">
+	<summary>
+Control frmReporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmAdmLineas.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.WebForm2.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.RoundedCornersExtender1">
+	<summary>
+RoundedCornersExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.pnlToolBarOpciones">
+	<summary>
+pnlToolBarOpciones control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.lbnConsultar">
+	<summary>
+lbnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.lbnLimpiar">
+	<summary>
+lbnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.lbnExportar">
+	<summary>
+lbnExportar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.pnlDetalle">
+	<summary>
+pnlDetalle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.lblCotizacion">
+	<summary>
+lblCotizacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.txtNumeroCotizacion">
+	<summary>
+txtNumeroCotizacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.lblCliente">
+	<summary>
+lblCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.txtCliente">
+	<summary>
+txtCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.lblEstado">
+	<summary>
+lblEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.lblModelo">
+	<summary>
+lblModelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.txtModelo">
+	<summary>
+txtModelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.lblVendedor">
+	<summary>
+lblVendedor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.txtVendedor">
+	<summary>
+txtVendedor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.btnModeloEspecificacion">
+	<summary>
+btnModeloEspecificacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.lblItems">
+	<summary>
+lblItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.gdvCotizacion">
+	<summary>
+gdvCotizacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionBusqueda.hidLimpiar">
+	<summary>
+hidLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.WebForm1.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.WebForm1.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.WebForm1.Button3">
+	<summary>
+Control Button3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.WebForm1.lblId">
+	<summary>
+Control lblId.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSA.ID_COTIZACION">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSA.PRODUCTO">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.ITEM">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.FLUIDOS">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.DETALLE_PARTES">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.FECHA_I">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.MONTO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA.MAQUINA">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapDEV.ZPRODWSCSA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.FAMILIA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.MODELO_BASE">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.MODELO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.PREFIJO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.MAQUINA_NUEVA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.NUMERO_SERIE">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.HOROMETRO_I">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.FECHA_HOROMETRO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.HORAS_PROMEDIO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.HOROMETRO_F">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.RENOVACION">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.RENOVACION_VAL">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.COD_DPTO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA.DEPARTAMENTO">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapDEV.ZMAQWSCSA">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSAResponse.E_RESULTADO">
+	<comentarios/>
+</member><member name="P:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSAResponse.MENSAJE_RESULTADO">
+	<comentarios/>
+</member><member name="T:Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSAResponse">
+	<comentarios/>
+</member><member name="F:Cotizador.frmAdmCargaNE.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmCargaNE.frmCarga">
+	<summary>
+frmCarga control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmCargaNE.Archivo">
+	<summary>
+Archivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmCargaNE.btnCargar">
+	<summary>
+btnCargar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmCargaNE.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmCargaNE.hdnASPArchivo">
+	<summary>
+hdnASPArchivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmAdmTarifas.exchkEncabezado">
+	<summary>
+Control exchkEncabezado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmAdmHomologacion.lblTitulo">
+	<summary>
+Control lblTitulo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.RoundedCornersExtender1">
+	<summary>
+RoundedCornersExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.pnlToolBarOpciones">
+	<summary>
+pnlToolBarOpciones control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.lbnConsultar">
+	<summary>
+lbnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.lbnLimpiar">
+	<summary>
+lbnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.pnlDetalle">
+	<summary>
+pnlDetalle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.lblCotizacion">
+	<summary>
+lblCotizacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.txtCotizacion">
+	<summary>
+txtCotizacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.lblCliente">
+	<summary>
+lblCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.txtCliente">
+	<summary>
+txtCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.lblModelo">
+	<summary>
+lblModelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.txtModelo">
+	<summary>
+txtModelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.lblItems">
+	<summary>
+lblItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Cotizador.frmCotizacionAprobacion.gdvCotizacion">
+	<summary>
+gdvCotizacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 </members>

@@ -6,25 +6,7 @@ Ferreyros.DACotizador
 </name>
 </assembly>
 <members>
-<member name="P:Ferreyros.DACotizador.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:Ferreyros.DACotizador.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:Ferreyros.DACotizador.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="T:Ferreyros.DACotizador.daConsultaSAP">
-	<summary>
- Consulta que deben consumirse desde un servicio SAP
- </summary>
-	<remarks></remarks>
-</member><member name="M:Ferreyros.DACotizador.daDbs.ObtenerTipoCambio(System.Data.OleDb.OleDbConnection,System.String,System.String,System.String,System.String,System.String,System.Data.DataRow@)">
+<member name="M:Ferreyros.DACotizador.daDbs.ObtenerTipoCambio(System.Data.OleDb.OleDbConnection,System.String,System.String,System.String,System.String,System.String,System.Data.DataRow@)">
 	<summary>
  Obtener Tipo Cambio del día del DBS
  </summary>
@@ -48,6 +30,24 @@ Ferreyros.DACotizador
 	<param name="Moneda">Código de la moneda</param>
 	<param name="dtrTipoCambio">Datarow devuelto</param>
 	<returns>Datarow</returns>
+	<remarks></remarks>
+</member><member name="P:Ferreyros.DACotizador.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Ferreyros.DACotizador.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Ferreyros.DACotizador.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Ferreyros.DACotizador.daConsultaSAP">
+	<summary>
+ Consulta que deben consumirse desde un servicio SAP
+ </summary>
 	<remarks></remarks>
 </member>
 </members>
