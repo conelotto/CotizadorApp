@@ -80,11 +80,11 @@
     </Reference>
     <Reference Include="Contabilidad.CapaDatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Contabilidad.CapaDatos.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\Contabilidad.CapaDatos.dll</HintPath>
     </Reference>
     <Reference Include="Contabilidad.CapaNegocio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Contabilidad.CapaNegocio.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\Contabilidad.CapaNegocio.dll</HintPath>
     </Reference>
     <Reference Include="Contabilidad.Datos">
       <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\Contabilidad.Datos.dll</HintPath>
@@ -109,7 +109,7 @@
     </Reference>
     <Reference Include="Excel, Version=2.0.1.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Excel.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\Excel.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
