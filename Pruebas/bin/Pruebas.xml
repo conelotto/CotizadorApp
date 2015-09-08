@@ -1,0 +1,177 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Pruebas
+</name>
+</assembly>
+<members>
+<member name="P:Pruebas.My.MyWebExtension.Application">
+	<summary>
+ Devuelve información sobre la aplicación actual.
+ </summary>
+</member><member name="P:Pruebas.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:Pruebas.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:Pruebas.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:Pruebas.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:Pruebas.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="P:Pruebas.My.MyWebExtension.WebServices">
+	<summary>
+ Proporciona acceso a los servicios Web agregados a este proyecto.
+ </summary>
+</member><member name="T:Pruebas.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Pruebas.Register.RegisterUser">
+	<summary>
+Control RegisterUser.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas.Register.RegisterUserWizardStep">
+	<summary>
+Control RegisterUserWizardStep.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas._Default.btnPrueba">
+	<summary>
+Control btnPrueba.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas._Default.btnPrueba2">
+	<summary>
+Control btnPrueba2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas._Default.btnPrueba3">
+	<summary>
+Control btnPrueba3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas._Default.btnPrueba4">
+	<summary>
+Control btnPrueba4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas.Login.RegisterHyperLink">
+	<summary>
+Control RegisterHyperLink.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas.Login.LoginUser">
+	<summary>
+Control LoginUser.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas.Site.HeadContent">
+	<summary>
+Control HeadContent.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas.Site.MasterPageScriptManager">
+	<summary>
+Control MasterPageScriptManager.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas.Site.HeadLoginView">
+	<summary>
+Control HeadLoginView.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas.Site.HeadHomeLink">
+	<summary>
+Control HeadHomeLink.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas.Site.HeadAboutLink">
+	<summary>
+Control HeadAboutLink.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Pruebas.Site.MainContent">
+	<summary>
+Control MainContent.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:Pruebas.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Pruebas.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="T:Pruebas.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="F:Pruebas.ChangePassword.ChangeUserPassword">
+	<summary>
+Control ChangeUserPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

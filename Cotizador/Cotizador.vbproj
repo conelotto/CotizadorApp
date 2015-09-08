@@ -64,19 +64,19 @@
   <ItemGroup>
     <Reference Include="AjaxControlToolkit, Version=4.1.60623.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\AjaxControlToolkit.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Nucleo 2010\AjaxControlToolkit.dll</HintPath>
     </Reference>
     <Reference Include="base.class.data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\base.class.data.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Nucleo 2010\base.class.data.dll</HintPath>
     </Reference>
     <Reference Include="base.class.interfase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\base.class.interfase.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Nucleo 2010\base.class.interfase.dll</HintPath>
     </Reference>
     <Reference Include="base.class.negocio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\base.class.negocio.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Nucleo 2010\base.class.negocio.dll</HintPath>
     </Reference>
     <Reference Include="Contabilidad.CapaDatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -94,10 +94,13 @@
       <HintPath>bin\Contabilidad.Entidades.dll</HintPath>
     </Reference>
     <Reference Include="Contabilidad.Interfases">
-      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\Contabilidad.Interfases.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Nucleo 2010\Contabilidad.Interfases.dll</HintPath>
     </Reference>
     <Reference Include="Contabilidad.ReglasNegocio">
-      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\Contabilidad.ReglasNegocio.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Nucleo 2010\Contabilidad.ReglasNegocio.dll</HintPath>
+    </Reference>
+    <Reference Include="Contabilidad.ReglasNegocio.XmlSerializers">
+      <HintPath>..\..\..\..\..\..\Nucleo 2010\Contabilidad.ReglasNegocio.XmlSerializers.dll</HintPath>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -110,7 +113,7 @@
     </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\log4net.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Nucleo 2010\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -141,7 +144,7 @@
     </Reference>
     <Reference Include="System.Linq.Dynamic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\System.Linq.Dynamic.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Nucleo 2010\System.Linq.Dynamic.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />

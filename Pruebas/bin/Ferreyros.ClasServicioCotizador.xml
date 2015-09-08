@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Ferreyros.ClasServicioCotizador
+</name>
+</assembly>
+<members>
+<member name="P:Ferreyros.ClasServicioCotizador.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Ferreyros.ClasServicioCotizador.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Ferreyros.ClasServicioCotizador.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Ferreyros.ClasServicioCotizador.daConsultaAS400.ListarCorporacion(System.String)">
+	<summary>
+ TABLA DE CORPORACION
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ferreyros.ClasServicioCotizador.daConsultaAS400.ListarSucursal(System.String)">
+	<summary>
+ TABLA DE SUCURSAL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,664 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Contabilidad.Interfases
+</name>
+</assembly>
+<members>
+<member name="T:Ferreyros.Contabilidad.Interfases.CUSTOM.LOGCONTSAPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.CUSTOM.LOGCONTSAPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.CUSTOM.LOGCONTSAPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.CUSTOM">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA060DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA010DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPOR010DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPOR020DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPOR030DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.U1PPE010DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPSC060DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPTB010DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UCPCB510DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPNU010DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPTC010DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UCPCB120DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPFAPH0DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UPPFACT0DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA080DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT070DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT120DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPEV060DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV010DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV020DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV110DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV120DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPLOG01DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPFAHD0DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_LIQVOUCHERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_MOVGASTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_LIQFUERAFECHADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_LISTALIQDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ESTADOCUENTADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ERVOUCHERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_OFICENCOSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_CONSOLIDAVOUDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_PADRONTERCDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ERMOVDIADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ANTIGUAMIENTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_SALDOCONTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.SCLCODE0DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_FALTACONTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_REGISTROVENTASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA070DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPLOG02DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT220DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT130DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT230DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT110DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT050DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_DAOTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT060DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_MRVDIFERIDASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPFADT0DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA060Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA010Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPOR010Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPOR020Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPOR030Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.U1PPE010Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPSC060Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPTB010Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UCPCB510Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPNU010Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPTC010Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UCPCB120Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPFAPH0Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UPPFACT0Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA080Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT070Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT120Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPEV060Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV010Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV020Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV110Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV120Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPLOG01Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPFAHD0Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_LIQVOUCHERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_MOVGASTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_LIQFUERAFECHARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_LISTALIQRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ESTADOCUENTARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ERVOUCHERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_OFICENCOSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_CONSOLIDAVOURow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_PADRONTERCRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ERMOVDIARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ANTIGUAMIENTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_SALDOCONTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.SCLCODE0Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_FALTACONTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_REGISTROVENTASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA070Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPLOG02Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT220Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT130Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT230Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT110Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT050Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_DAOTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT060Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_MRVDIFERIDASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPFADT0Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA060RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA010RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPOR010RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPOR020RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPOR030RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.U1PPE010RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPSC060RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPTB010RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UCPCB510RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UOPNU010RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPTC010RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UCPCB120RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPFAPH0RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UPPFACT0RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA080RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT070RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT120RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPEV060RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV010RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV020RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV110RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPRV120RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPLOG01RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPFAHD0RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_LIQVOUCHERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_MOVGASTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_LIQFUERAFECHARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_LISTALIQRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ESTADOCUENTARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ERVOUCHERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_OFICENCOSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_CONSOLIDAVOURowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_PADRONTERCRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ERMOVDIARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_ANTIGUAMIENTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_SALDOCONTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.SCLCODE0RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_FALTACONTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_REGISTROVENTASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPDA070RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPLOG02RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT220RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT130RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT230RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT110RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT050RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_DAOTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPCT060RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.REP_MRVDIFERIDASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400.UFPFADT0RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.AS400">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:Ferreyros.Contabilidad.Interfases.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Ferreyros.Contabilidad.Interfases.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Interfases.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="M:Ferreyros.Contabilidad.Interfases.IVoucherContabilizado.InsertarPorContabilizar(System.String,Ferreyros.Contabilidad.Interfases.AS400.UFPCT120Row,Ferreyros.Contabilidad.Interfases.AS400.UFPCT130DataTable,System.String@,Ferreyros.Contabilidad.Interfases.AS400.UFPCT110DataTable)">
+	<summary>Se inserta registros en las tablas UFPCT120, UFPCT130, UFPCT110 correspondientes a cabecera, detalle y agrupaciones respectivamente, de vouchers contabilizados en SAP.</summary>
+	<param name="pi_strLibreria">Libreria o esquema de datos</param>
+	<param name="pi_RowCabecera">Fila de la tabla UFPCT120 que se insertará</param>
+	<param name="pi_TablaDet">Tabla que contiene el detalle a insertar en la UFPCT130 </param>
+	<param name="po_strMensaje">Campo que guardará los mensajes de excepción en caso no se realizará la operación</param>
+	<param name="pi_TablaDetAgrupa">Tabla opcional que contiene el detalle agrupado a insertar en la UFPCT110. Si es vacío (Nothing) no se insertará en UFPCT110.</param>
+</member><member name="M:Ferreyros.Contabilidad.Interfases.IVoucherContabilizado.EliminarPorDescontabilizar(System.String,System.String,System.String,System.String,System.String@)">
+	<summary>Borrar los registro en las tablas UFPCT120, UFPCT130, UFPCT110 correspondientes a cabecera, detalle y agrupaciones respectivamente, de vouchers contabilizados en SAP. </summary>
+	<param name="pi_strLibreria">Libreria o esquema de datos</param>
+	<param name="pi_strSociedad">Compañia o Sociedad</param>
+	<param name="pi_strPeriodo">Periodo contable</param>
+	<param name="pi_strVoucher">Número de voucher</param>
+	<param name="po_strMensaje">Campo que guardará los mensajes de excepción en caso no se realizará la operación</param>
+</member><member name="M:Ferreyros.Contabilidad.Interfases.IVoucherContabilizado.BuscarPosicion(System.String,System.String,System.String,System.String)">
+	<summary>Obtiene los datos de un voucher específico. Todos los parámetros son obligatorios.</summary>
+	<param name="pi_strLibreria">Libreria o esquema de datos</param>
+	<param name="pi_strSociedad">Compañia o Sociedad</param>
+	<param name="pi_strPeriodo">Periodo contable</param>
+	<param name="pi_strVoucher">Número de voucher</param>
+</member>
+</members>
+</doc>
