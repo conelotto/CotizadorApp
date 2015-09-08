@@ -1,0 +1,572 @@
+﻿BODY
+{
+	margin: 0px;
+	background-color:#fcfcfc; /*#FAFAFA;*/
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	word-spacing: normal;
+	padding-right: 0px;
+	padding-left: 0px;
+	background-image: none;
+	/*list-style-image: url(Imagen/Vineta.GIF);*/
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+H1, H2, H3, H4, H5, TH, THEAD, TFOOT
+{
+    COLOR: #003366;
+}
+H1	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	2em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H2	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.75em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H3	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.58em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H4	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.33em;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H5, DT	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H6	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	.8em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+TFOOT, THEAD
+{
+	font-size: 1em;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}	
+		
+TH
+{
+	vertical-align: middle;
+	font-size: 1em;
+	font-weight: bold;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	text-align: center;
+	background-color: #507CD1;
+	color: #FFFFFF;
+}	
+
+
+A:link	{	
+	color: #0066ff;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+	cursor: hand;
+	}	
+		
+A:visited
+{
+	color: #0066ff;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+	cursor: hand;
+}	
+		
+A:active	{	
+	color: #0066ff;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+	cursor: hand;
+	}	
+		
+A:hover	{	
+	color: #ff9933;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+	cursor: hand;
+	text-decoration: underline;
+	}
+	
+SMALL	{	
+	font-size:	.7em;
+	}	
+
+BIG	{	
+	font-size:	1.17em;
+	}	
+
+BLOCKQUOTE, PRE	{	
+	font-family:	Courier New, monospace;
+	}	
+	
+
+UL LI	{	
+	list-style-type:	square ;
+	}	
+
+UL LI LI	{	
+	list-style-type:	disc;
+	}	
+
+UL LI LI LI	{	
+	list-style-type:	circle;
+	}	
+	
+OL LI	{	
+	list-style-type:	decimal;
+	}	
+
+OL OL LI	{	
+	list-style-type:	lower-alpha;
+	}	
+
+OL OL OL LI	{	
+	list-style-type:	lower-roman;
+	}	
+
+IMG
+{
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	text-align: center;
+}
+.suggest_link 
+{
+	background-color: #FFFFFF;
+	padding: 2px 6px 2px 6px;
+}	
+.suggest_link_over
+{
+	background-color: #CEEFFF;
+	padding: 2px 6px 2px 6px;
+}
+.TituloPagina
+{
+	vertical-align: middle;
+	text-align: left;
+	font-size:	1.75em;
+	color: #000000;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+/*
+.Boton
+{
+	cursor: hand;
+	color: #000080;
+	background-color: #CCCCCC;
+}
+*/
+.Boton
+{
+	border-right: #95b7f3 1px solid;
+	border-top: #95b7f3 1px solid;
+	font-weight: bold;
+	font-size: 10px;
+	border-left: #95b7f3 1px solid;
+	cursor: hand;
+	color: #003399;
+	border-bottom: #95b7f3 1px solid;
+	font-family: Verdana;
+	background-color: white;
+	text-align: center;
+	TEXT-DECORATION: none;
+	BACKGROUND-REPEAT: repeat-x;
+	/*background-color: #e9f2fe;*/
+	BACKGROUND-IMAGE: url(../../Recursos/Img/toolgrad.gif); 
+	border-color :#95b7f3	
+}
+.BotonMenu
+{
+	cursor: hand;
+	color: #000080;
+	background-color: #CCCCCC;
+}
+.BotonMenuHover
+{
+	cursor: hand;
+	color: #000080;
+	background-color: #999999;
+	font-weight: bold;
+}
+.BotonMenuActive
+{
+	cursor: hand;
+	color: #990000;
+	background-color: #999999;
+	font-weight: bold;
+}
+.Etiqueta
+{
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+}
+.EtiquetaRequerida
+{
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+	font-weight: bold;
+}
+.Campo
+{
+	border-style: inset;
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+}
+.CampoDerecha
+{
+	border-style: inset;
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px 2px 0px 0px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: right;
+	font-size: 9pt;
+}
+.CampoBorde
+{
+	border: 1px inset #000000;
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+}
+	
+.CampoBordeDerecha
+{
+	border: 1px inset #000000;
+	margin: 0px;
+	padding: 0px 2px 0px 0px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: right;
+	font-size: 9pt;
+}
+.CampoBordeLectura
+{
+	border: 1px inset #000000;
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+	background-color: #CCCCCC;
+}
+.CampoBordeLecturaDerecha
+{
+	border: 1px inset #000000;
+	margin: 0px;
+	padding: 0px 2px 0px 0px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: right;
+	font-size: 9pt;
+	background-color: #CCCCCC;
+}
+.CampoLectura
+{
+	border-style: inset;
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+	background-color: #CCCCCC;
+}
+.CampoLecturaDerecha
+{
+	border-style: inset;
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px 2px 0px 0px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: right;
+	font-size: 9pt;
+	background-color: #CCCCCC;
+}
+.TituloTabla
+{
+	font-size: 10pt;
+	color: #0000cd;
+	font-weight: bold;
+}
+.GrillaHeader
+{
+	background-color: #507CD1;
+	color: #333333;
+	border: 1px inset #0033CC;
+	font-size: 10px;
+	vertical-align: middle;
+	text-align: center;
+	font-family: TheSansCorrespondence;
+	font-style: normal;
+	font-weight: normal;
+}
+.GrillaRow
+{
+	border: 1px inset #0033CC;
+	background-color: #F8F8FF;
+	font-size: 9pt;
+	color: #006600;
+	vertical-align: top;
+}
+.GrillaAlternating
+{
+	border: 1px inset #0033CC;
+	background-color: #ffffff;
+	font-size: 9pt;
+	color: #666633;
+	vertical-align: top;
+}
+.CeldaRegistro
+{
+	background-color: #f5f4f7;
+	vertical-align: middle;
+	text-align: left;
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #006600;
+	font-size: 9pt;
+}
+.CeldaRegistroDerecha
+{
+	background-color: #f5f4f7;
+	vertical-align: middle;
+	text-align: right;
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #003700;
+	font-size: 9pt;
+}
+.CeldaRegistroTop
+{
+	background-color: #f5f4f7;
+	vertical-align:top;
+	text-align: left;
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #006600;
+	font-size: 9pt;
+}
+.CeldaLectura
+{
+	border-style: inset;
+	border-color: #006600 #00CC00 #336600 #006600;
+	border-width: 1px;
+	margin: 0px;
+	padding: 0px;
+	color: #006600;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 9pt;
+	background-color: #CCCCCC;
+}
+.TablaRegistroTotal
+{
+	border: 1px inset #66ccff;
+	border-spacing: 0px;
+	empty-cells: show;
+	padding: 0px;
+	width: 100%;
+	margin: 0px;
+}
+.Validacion
+{
+	padding: 0px;
+	margin: 0px;
+	font-size: 8pt;
+	color: #dc143c;
+}
+.links 
+{
+	font-size:0.9em; 
+	padding:1px 2px 2px 3px; 
+	text-align:right;
+	/*line-height:1.6em; */
+	text-decoration: none;
+	color: Gray;
+}
+
+/*.CompletionListCssClass      
+{
+	font-size: 11px;     
+	color: #000;     
+	padding: 3px 5px;     
+	border: 1px solid #999;     
+	background: #fff;     
+	width: 300px;     
+	float: left;     
+	z-index: 1;     
+	position:absolute;     
+	margin-left:0px; 
+}*/
+#blockingBg
+{
+   filter:alpha(opacity=80); 
+   opacity: 0.8; 
+   left: 0px; 
+   top: 0px; 
+   width: 100%; 
+   height: 100%;
+   background-color:#454545 !Important;
+   position: fixed;
+   text-align:center;
+   vertical-align:middle ; 
+   padding-top:300px; 
+}
+.divLoading
+{   
+    border-style:solid !important;
+    border-width:7px !important;
+    border-color: #E3E2D6 !important; 
+    width:200px;
+    height:150px;     
+}
+.modalBackground 
+{ 
+  background-color:#CCCCFF; 
+  filter:alpha(opacity=40); 
+  opacity:0.5; 
+}
+.modalTitulo
+{
+    border: solid 1px #B0C8E0;
+    background-color: #E0E8F8;
+    color:#182838;
+    margin-right:10px !important;
+    border-bottom-width:0px;
+    padding-left:5px;
+    font-weight:bold ;
+    font-size:11px; 
+    width:99%;    
+}
+.modalBody
+{
+    border: solid 1px #B0C8E0;     
+   width:99%; 
+   margin-bottom:5px;
+   padding-bottom:5px;
+   padding-top:5px;
+   padding-left:5px;
+   font-family: Verdana, Helvetica, sans-serif;
+   font-size: 11px;
+   background-color:White;
+}
+    
+.TDTexto
+{
+	FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: Arial; TEXT-DECORATION: none; FONT-WEIGHT: bold;
+}
+
+.GroupByHeader
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #2E4d7B;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#master_content .GroupByHeader a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .GroupByHeader a:hover
+{
+	background: none;
+	text-decoration: underline;
+}

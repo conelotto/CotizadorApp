@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{69090C15-A417-47A2-865B-9D894FA5994F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Cotizador</RootNamespace>
+    <AssemblyName>Cotizador</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Cotizador.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Cotizador.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60623.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="base.class.data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\base.class.data.dll</HintPath>
+    </Reference>
+    <Reference Include="base.class.interfase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\base.class.interfase.dll</HintPath>
+    </Reference>
+    <Reference Include="base.class.negocio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\base.class.negocio.dll</HintPath>
+    </Reference>
+    <Reference Include="Contabilidad.CapaDatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Contabilidad.CapaDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="Contabilidad.CapaNegocio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Contabilidad.CapaNegocio.dll</HintPath>
+    </Reference>
+    <Reference Include="Contabilidad.Datos">
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\Contabilidad.Datos.dll</HintPath>
+    </Reference>
+    <Reference Include="Contabilidad.Entidades, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Contabilidad.Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="Contabilidad.Interfases">
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\Contabilidad.Interfases.dll</HintPath>
+    </Reference>
+    <Reference Include="Contabilidad.ReglasNegocio">
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\Contabilidad.ReglasNegocio.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Excel, Version=2.0.1.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Dynamic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArchivosCotizador\WebForm2.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Images\ActionCopy.gif" />
+    <Content Include="Images\ActionDelete.gif" />
+    <Content Include="Images\ActionUpdate.gif" />
+    <Content Include="Images\AdjuntoDelete.gif" />
+    <Content Include="Images\AdjuntoUpdate.gif" />
+    <Content Include="Images\ajax-loader.gif" />
+    <Content Include="Images\arrow_down.jpg" />
+    <Content Include="Images\arrow_up.jpg" />
+    <Content Include="Images\bg_nav.png" />
+    <Content Include="Images\calDerecha.gif" />
+    <Content Include="Images\Calendar.gif" />
+    <Content Include="Images\calIzquierda.gif" />
+    <Content Include="Images\cargando.gif" />
+    <Content Include="Images\cat.PNG" />
+    <Content Include="Images\cerrar.gif" />
+    <Content Include="Images\First.png" />
+    <Content Include="Images\ingresar.gif" />
+    <Content Include="Images\Last.png" />
+    <Content Include="Images\linea.PNG" />
+    <Content Include="Images\Login.png" />
+    <Content Include="Images\Logo Ferreyros.png" />
+    <Content Include="Images\LogoFerreyros_Cat.png" />
+    <Content Include="Images\Minus.gif" />
+    <Content Include="Images\Next.png" />
+    <Content Include="Images\Plus.gif" />
+    <Content Include="Images\Prev.png" />
+    <Content Include="Images\PrintPDF.gif" />
+    <Content Include="Images\Toolbar.jpg" />
+    <Content Include="Inicio.aspx" />
+    <Content Include="Inicio.htm" />
+    <Content Include="Paginas\Administracion\frmAdmCampos.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmCargaArchivoRS.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmCargaNE.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmConfiguracionCampoLLave.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmConfiguracionSeccion.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmConfiguracionSolucionCombinada.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmConfiguracionTablas.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmConfiguracionLineaResponsable.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmConsulta.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmDetallePartes.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmDocumentoMarcadores.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmEspecificacionTecnicaBackup.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmHomologacion.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmLineas.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmLLaves.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmQuerys.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmRegistroArchivoConfiguracion.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmTablasImpresion.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmTarifas.aspx" />
+    <Content Include="Paginas\Administracion\frmAdmAprobador.aspx" />
+    <Content Include="Paginas\frmCargar.aspx" />
+    <Content Include="Paginas\frmDescargarFTP.aspx" />
+    <Content Include="Paginas\frmErrorArchivoFTP.aspx" />
+    <Content Include="Paginas\Publico\frmCargaNE.aspx" />
+    <Content Include="Paginas\Publico\frmCotizacionAprobacion.aspx" />
+    <Content Include="Paginas\Publico\frmCotizacionBusqueda.aspx" />
+    <Content Include="Paginas\Publico\frmCotizacionRegistro.aspx" />
+    <Content Include="Paginas\Publico\frmReporte.aspx" />
+    <Content Include="Paginas\Publico\WebForm1.aspx" />
+    <Content Include="Scripts\jcomunes.js" />
+    <Content Include="Scripts\jQuery-1.8.0\grid.base.js" />
+    <Content Include="Scripts\jQuery-1.8.0\grid.common.js" />
+    <Content Include="Scripts\jQuery-1.8.0\grid.filter.js" />
+    <Content Include="Scripts\jQuery-1.8.0\grid.formedit.js" />
+    <Content Include="Scripts\jQuery-1.8.0\grid.grouping.js" />
+    <Content Include="Scripts\jQuery-1.8.0\grid.subgrid.js" />
+    <Content Include="Scripts\jQuery-1.8.0\i18n\grid.locale-es.js" />
+    <Content Include="Scripts\jQuery-1.8.0\i18n\jquery.ui.datepicker-es.js" />
+    <Content Include="Scripts\jQuery-1.8.0\images\bg-box-body.gif" />
+    <Content Include="Scripts\jQuery-1.8.0\images\bg-box-body.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\bg-box-bottom.gif" />
+    <Content Include="Scripts\jQuery-1.8.0\images\bg-box-bottom.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\bg-box-top.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\delete.gif" />
+    <Content Include="Scripts\jQuery-1.8.0\images\dialog-error.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\dialog-help.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\dialog-warning.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-anim_basic_16x16.gif" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Scripts\jQuery-1.8.0\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery-1.7.2.min.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery-alert.css" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery-ui-1.8.1.custom.css" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery-ui-1.8.1.custom.min.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.alphaNumeric.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.blockUI.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.contextmenu.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.fmatter.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.jqGrid.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.jqGrid.min.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.jqGrid.src.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.layout.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.maxlength.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.searchFilter.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.tablednd.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.ui.button.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.ui.widget.js" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.validate.min.js" />
+    <Content Include="Scripts\jQuery-1.8.0\json2.js" />
+    <Content Include="Scripts\jQuery-1.8.0\JsonXml.js" />
+    <Content Include="Scripts\jQuery-1.8.0\ui.jqgrid.css" />
+    <Content Include="Scripts\jQuery-1.8.0\ui.multiselect.css" />
+    <Content Include="Scripts\jQuery-1.8.0\ui.multiselect.js" />
+    <Content Include="Scripts\jquery.timers.js" />
+    <Content Include="Comunes\UploadVB.ashx" />
+    <Content Include="Scripts\jquery.uploadify.js" />
+    <Content Include="Scripts\jquery.uploadify.min.js" />
+    <Content Include="Scripts\uploadify.swf" />
+    <None Include="Service References\wsRespuestaSapDEV\Cotizador.wsRespuestaSapDEV.ZWS_RECIBE_COTIZACION_CSAResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsRespuestaSapDEV\document.wsdl" />
+    <None Include="Service References\wsRespuestaSapDEV\configuration91.svcinfo" />
+    <None Include="Service References\wsRespuestaSapDEV\configuration.svcinfo" />
+    <None Include="Service References\wsRespuestaSapDEV\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\wsRespuestaSapPRD\Cotizador.wsRespuestaSapPRD.ZWS_RECIBE_COTIZACION_CSAResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsRespuestaSapPRD\document.wsdl" />
+    <None Include="Service References\wsRespuestaSapQA\configuration91.svcinfo" />
+    <None Include="Service References\wsRespuestaSapQA\configuration.svcinfo" />
+    <None Include="Service References\wsRespuestaSapQA\Cotizador.wsRespuestaSapQA.ZWS_RECIBE_COTIZACION_CSAResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsRespuestaSapQA\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\wsRespuestaSapPRD\configuration91.svcinfo" />
+    <None Include="Service References\wsRespuestaSapPRD\configuration.svcinfo" />
+    <None Include="Service References\wsRespuestaSapPRD\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\border-radius.htc" />
+    <Content Include="Styles\designer.css" />
+    <Content Include="Styles\Estilo.css" />
+    <Content Include="Styles\formulario.css" />
+    <Content Include="Styles\grid.css" />
+    <Content Include="Styles\jquery\images\arrow_bottom.png" />
+    <Content Include="Styles\jquery\images\arrow_left.png" />
+    <Content Include="Styles\jquery\images\arrow_right.png" />
+    <Content Include="Styles\jquery\images\arrow_top.png" />
+    <Content Include="Styles\jquery\images\backgroundTop.png" />
+    <Content Include="Styles\jquery\images\backImage.png" />
+    <Content Include="Styles\jquery\images\bar-hue.png" />
+    <Content Include="Styles\jquery\images\bar-saturation.png" />
+    <Content Include="Styles\jquery\images\bg_black.png" />
+    <Content Include="Styles\jquery\images\bg_black2.png" />
+    <Content Include="Styles\jquery\images\bg_blackhover.png" />
+    <Content Include="Styles\jquery\images\bg_blackhover_horizontal.png" />
+    <Content Include="Styles\jquery\images\bg_blackpressed.png" />
+    <Content Include="Styles\jquery\images\bg_blackpressed_horizontal.png" />
+    <Content Include="Styles\jquery\images\bg_black_horizontal.png" />
+    <Content Include="Styles\jquery\images\bg_blueenergy.png" />
+    <Content Include="Styles\jquery\images\bg_darkblue.png" />
+    <Content Include="Styles\jquery\images\bg_darkbluehover.png" />
+    <Content Include="Styles\jquery\images\bg_darkbluepressed.png" />
+    <Content Include="Styles\jquery\images\blackbackground.png" />
+    <Content Include="Styles\jquery\images\black_gradient.png" />
+    <Content Include="Styles\jquery\images\check_black.png" />
+    <Content Include="Styles\jquery\images\check_disabled.png" />
+    <Content Include="Styles\jquery\images\check_indeterminate_black.png" />
+    <Content Include="Styles\jquery\images\check_indeterminate_disabled.png" />
+    <Content Include="Styles\jquery\images\check_indeterminate_white.png" />
+    <Content Include="Styles\jquery\images\check_white.png" />
+    <Content Include="Styles\jquery\images\close.png" />
+    <Content Include="Styles\jquery\images\close_white.png" />
+    <Content Include="Styles\jquery\images\crosshair-white.png" />
+    <Content Include="Styles\jquery\images\crosshair.png" />
+    <Content Include="Styles\jquery\images\darkred_gradient.png" />
+    <Content Include="Styles\jquery\images\icon-down - Copy.png" />
+    <Content Include="Styles\jquery\images\icon-down-white.png" />
+    <Content Include="Styles\jquery\images\icon-down.png" />
+    <Content Include="Styles\jquery\images\icon-left-white.png" />
+    <Content Include="Styles\jquery\images\icon-left.png" />
+    <Content Include="Styles\jquery\images\icon-right-white.png" />
+    <Content Include="Styles\jquery\images\icon-right.png" />
+    <Content Include="Styles\jquery\images\icon-up-white.png" />
+    <Content Include="Styles\jquery\images\icon-up.png" />
+    <Content Include="Styles\jquery\images\map-hue.png" />
+    <Content Include="Styles\jquery\images\map-saturation-overlay.png" />
+    <Content Include="Styles\jquery\images\map-saturation.png" />
+    <Content Include="Styles\jquery\images\multi-arrow.gif" />
+    <Content Include="Styles\jquery\images\nav-arrow-down.png" />
+    <Content Include="Styles\jquery\images\nav-arrow-left.png" />
+    <Content Include="Styles\jquery\images\nav-arrow-right.png" />
+    <Content Include="Styles\jquery\images\nav-arrow-up.png" />
+    <Content Include="Styles\jquery\images\pointer.png" />
+    <Content Include="Styles\jquery\images\rangebar_classic.png" />
+    <Content Include="Styles\jquery\images\rangebar_darkblue.png" />
+    <Content Include="Styles\jquery\images\rangebar_shinyblack.png" />
+    <Content Include="Styles\jquery\images\rangebar_summer.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-icons_217bc0_256x240.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-icons_469bdd_256x240.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Styles\jquery\images\redmond\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Styles\jquery\images\red_gradient.png" />
+    <Content Include="Styles\jquery\images\roundbg_check_black.png" />
+    <Content Include="Styles\jquery\images\roundbg_check_disabled.png" />
+    <Content Include="Styles\jquery\images\roundbg_check_indeterminate.png" />
+    <Content Include="Styles\jquery\images\roundbg_check_white.png" />
+    <Content Include="Styles\jquery\images\roundbg_classic_hover.png" />
+    <Content Include="Styles\jquery\images\roundbg_classic_normal.png" />
+    <Content Include="Styles\jquery\images\roundbg_disabled.png" />
+    <Content Include="Styles\jquery\images\star.png" />
+    <Content Include="Styles\jquery\images\star_disabled.png" />
+    <Content Include="Styles\jquery\images\star_hover.png" />
+    <Content Include="Styles\jquery\images\tick.png" />
+    <Content Include="Styles\jquery\images\track_classic.png" />
+    <Content Include="Styles\jquery\images\track_darkblue.png" />
+    <Content Include="Styles\jquery\images\track_shinyblack.png" />
+    <Content Include="Styles\jquery\images\track_summer.png" />
+    <Content Include="Styles\jquery\jqx.base.css" />
+    <Content Include="Styles\Principal.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Styles\StyleSheet.css" />
+    <Content Include="Styles\uploadify-cancel.png" />
+    <Content Include="Styles\uploadify.css" />
+    <Content Include="Styles\uploadify.swf" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArchivosCotizador\WebForm2.aspx.designer.vb">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArchivosCotizador\WebForm2.aspx.vb">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\AdminEmail.vb" />
+    <Compile Include="Comunes\AdminFTP.vb" />
+    <Compile Include="Comunes\AdminSeguridad.vb" />
+    <Compile Include="Comunes\CargaRS.vb" />
+    <Compile Include="Comunes\EstructuraDatos.vb" />
+    <Compile Include="Comunes\Homologacion.vb" />
+    <Compile Include="Comunes\Impresion.vb" />
+    <Compile Include="Comunes\ImpresionExtender.vb" />
+    <Compile Include="Comunes\ImpresionSolCombinada.vb" />
+    <Compile Include="Comunes\JQGridItem.vb" />
+    <Compile Include="Comunes\JQGridJsonResponse.vb" />
+    <Compile Include="Comunes\main.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Modulo.vb" />
+    <Compile Include="Comunes\UploadVB.ashx.vb">
+      <DependentUpon>UploadVB.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Comunes\WSAccesoLocal.vb" />
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.aspx.designer.vb">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.aspx.vb">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmCampos.aspx.designer.vb">
+      <DependentUpon>frmAdmCampos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmCampos.aspx.vb">
+      <DependentUpon>frmAdmCampos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmCargaArchivoRS.aspx.designer.vb">
+      <DependentUpon>frmAdmCargaArchivoRS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmCargaArchivoRS.aspx.vb">
+      <DependentUpon>frmAdmCargaArchivoRS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmCargaNE.aspx.designer.vb">
+      <DependentUpon>frmAdmCargaNE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmCargaNE.aspx.vb">
+      <DependentUpon>frmAdmCargaNE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConfiguracionCampoLLave.aspx.designer.vb">
+      <DependentUpon>frmAdmConfiguracionCampoLLave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConfiguracionCampoLLave.aspx.vb">
+      <DependentUpon>frmAdmConfiguracionCampoLLave.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConfiguracionSeccion.aspx.designer.vb">
+      <DependentUpon>frmAdmConfiguracionSeccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConfiguracionSeccion.aspx.vb">
+      <DependentUpon>frmAdmConfiguracionSeccion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConfiguracionSolucionCombinada.aspx.designer.vb">
+      <DependentUpon>frmAdmConfiguracionSolucionCombinada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConfiguracionSolucionCombinada.aspx.vb">
+      <DependentUpon>frmAdmConfiguracionSolucionCombinada.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConfiguracionTablas.aspx.designer.vb">
+      <DependentUpon>frmAdmConfiguracionTablas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConfiguracionTablas.aspx.vb">
+      <DependentUpon>frmAdmConfiguracionTablas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConfiguracionLineaResponsable.aspx.designer.vb">
+      <DependentUpon>frmAdmConfiguracionLineaResponsable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConfiguracionLineaResponsable.aspx.vb">
+      <DependentUpon>frmAdmConfiguracionLineaResponsable.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConsulta.aspx.designer.vb">
+      <DependentUpon>frmAdmConsulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmConsulta.aspx.vb">
+      <DependentUpon>frmAdmConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmDetallePartes.aspx.designer.vb">
+      <DependentUpon>frmAdmDetallePartes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmDetallePartes.aspx.vb">
+      <DependentUpon>frmAdmDetallePartes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmDocumentoMarcadores.aspx.designer.vb">
+      <DependentUpon>frmAdmDocumentoMarcadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmDocumentoMarcadores.aspx.vb">
+      <DependentUpon>frmAdmDocumentoMarcadores.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmEspecificacionTecnicaBackup.aspx.designer.vb">
+      <DependentUpon>frmAdmEspecificacionTecnicaBackup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmEspecificacionTecnicaBackup.aspx.vb">
+      <DependentUpon>frmAdmEspecificacionTecnicaBackup.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmHomologacion.aspx.designer.vb">
+      <DependentUpon>frmAdmHomologacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmHomologacion.aspx.vb">
+      <DependentUpon>frmAdmHomologacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmLineas.aspx.designer.vb">
+      <DependentUpon>frmAdmLineas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmLineas.aspx.vb">
+      <DependentUpon>frmAdmLineas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmLLaves.aspx.designer.vb">
+      <DependentUpon>frmAdmLLaves.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmLLaves.aspx.vb">
+      <DependentUpon>frmAdmLLaves.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmQuerys.aspx.designer.vb">
+      <DependentUpon>frmAdmQuerys.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmQuerys.aspx.vb">
+      <DependentUpon>frmAdmQuerys.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmRegistroArchivoConfiguracion.aspx.designer.vb">
+      <DependentUpon>frmAdmRegistroArchivoConfiguracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmRegistroArchivoConfiguracion.aspx.vb">
+      <DependentUpon>frmAdmRegistroArchivoConfiguracion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmTablasImpresion.aspx.designer.vb">
+      <DependentUpon>frmAdmTablasImpresion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmTablasImpresion.aspx.vb">
+      <DependentUpon>frmAdmTablasImpresion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmTarifas.aspx.designer.vb">
+      <DependentUpon>frmAdmTarifas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmTarifas.aspx.vb">
+      <DependentUpon>frmAdmTarifas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmAprobador.aspx.designer.vb">
+      <DependentUpon>frmAdmAprobador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Administracion\frmAdmAprobador.aspx.vb">
+      <DependentUpon>frmAdmAprobador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\frmCargar.aspx.designer.vb">
+      <DependentUpon>frmCargar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\frmCargar.aspx.vb">
+      <DependentUpon>frmCargar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\frmDescargarFTP.aspx.designer.vb">
+      <DependentUpon>frmDescargarFTP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\frmDescargarFTP.aspx.vb">
+      <DependentUpon>frmDescargarFTP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\frmErrorArchivoFTP.aspx.designer.vb">
+      <DependentUpon>frmErrorArchivoFTP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\frmErrorArchivoFTP.aspx.vb">
+      <DependentUpon>frmErrorArchivoFTP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Publico\frmCargaNE.aspx.designer.vb">
+      <DependentUpon>frmCargaNE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Publico\frmCargaNE.aspx.vb">
+      <DependentUpon>frmCargaNE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Publico\frmCotizacionAprobacion.aspx.designer.vb">
+      <DependentUpon>frmCotizacionAprobacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Publico\frmCotizacionAprobacion.aspx.vb">
+      <DependentUpon>frmCotizacionAprobacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Publico\frmCotizacionBusqueda.aspx.designer.vb">
+      <DependentUpon>frmCotizacionBusqueda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Publico\frmCotizacionBusqueda.aspx.vb">
+      <DependentUpon>frmCotizacionBusqueda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Publico\frmCotizacionRegistro.aspx.designer.vb">
+      <DependentUpon>frmCotizacionRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Publico\frmCotizacionRegistro.aspx.vb">
+      <DependentUpon>frmCotizacionRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Publico\frmReporte.aspx.designer.vb">
+      <DependentUpon>frmReporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Publico\frmReporte.aspx.vb">
+      <DependentUpon>frmReporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Publico\WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Publico\WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SapSite.Master.designer.vb">
+      <DependentUpon>SapSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SapSite.Master.vb">
+      <DependentUpon>SapSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Service References\wsRespuestaSapDEV\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRespuestaSapPRD\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRespuestaSapQA\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Temas\Skin1.skin" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+    <Content Include="Scripts\jQuery-1.8.0\jquery.alert.js" />
+    <Content Include="SapSite.Master" />
+    <None Include="Service References\wsRespuestaSapQA\document.wsdl" />
+    <None Include="Styles\bootstrap.css.map" />
+    <None Include="Temp\Formato de Cotizacio Prime.doc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Paginas\Reportes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ferreyros.BCCotizador\Ferreyros.BCCotizador.vbproj">
+      <Project>{24CB2775-F961-4272-A3CE-6B16800B9E54}</Project>
+      <Name>Ferreyros.BCCotizador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ferreyros.BECotizador\Ferreyros.BECotizador.vbproj">
+      <Project>{823DD200-7638-4CDC-8E60-6325FF385BB6}</Project>
+      <Name>Ferreyros.BECotizador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ferreyros.Utiles\Ferreyros.Utiles.vbproj">
+      <Project>{1E67041F-EA1A-43F5-8634-AC6677C19EA8}</Project>
+      <Name>Ferreyros.Utiles</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\wsRespuestaSapDEV\" />
+    <WCFMetadataStorage Include="Service References\wsRespuestaSapPRD\" />
+    <WCFMetadataStorage Include="Service References\wsRespuestaSapQA\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58271</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

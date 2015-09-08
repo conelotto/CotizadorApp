@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:sap-com:document:sap:rfc:functions" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" targetNamespace="urn:sap-com:document:sap:rfc:functions" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+    <sidl:sidl xmlns:sidl="http://www.sap.com/2007/03/sidl" />
+  </wsdl:documentation>
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="BN_BN_ZWS_IN_COT_CSA_B">
+    <saptrnbnd:OptimizedXMLTransfer uri="http://xml.sap.com/2006/11/esi/esp/binxml" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
+    <saptrnbnd:OptimizedMimeSerialization xmlns:saptrnbnd="http://schemas.xmlsoap.org/ws/2004/09/policy/optimizedmimeserialization" wsp:Optional="true" />
+    <sapattahnd:Enabled xmlns:sapattahnd="http://www.sap.com/710/features/attachment/">false</sapattahnd:Enabled>
+    <wsp:ExactlyOne xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" />
+    <wsaw:UsingAddressing xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" wsp:Optional="true" />
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="BN_BN_ZWS_IN_COT_CSA_B_SOAP12">
+    <saptrnbnd:OptimizedXMLTransfer uri="http://xml.sap.com/2006/11/esi/esp/binxml" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
+    <saptrnbnd:OptimizedMimeSerialization xmlns:saptrnbnd="http://schemas.xmlsoap.org/ws/2004/09/policy/optimizedmimeserialization" wsp:Optional="true" />
+    <sapattahnd:Enabled xmlns:sapattahnd="http://www.sap.com/710/features/attachment/">false</sapattahnd:Enabled>
+    <wsp:ExactlyOne xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" />
+    <wsaw:UsingAddressing xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" wsp:Optional="true" />
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="IF_IF_ZWS_IN_COT_CSA_B">
+    <sapsession:Session xmlns:sapsession="http://www.sap.com/webas/630/soap/features/session/">
+      <sapsession:enableSession>false</sapsession:enableSession>
+    </sapsession:Session>
+    <sapcentraladmin:CentralAdministration xmlns:sapcentraladmin="http://www.sap.com/webas/700/soap/features/CentralAdministration/" wsp:Optional="true">
+      <sapcentraladmin:BusinessApplicationID>5053F0B463F60FB0E10080000A4B010D</sapcentraladmin:BusinessApplicationID>
+    </sapcentraladmin:CentralAdministration>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_IF_OP_ZWS_RECIBE_COTIZACION_CSA">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" targetNamespace="urn:sap-com:document:sap:rfc:functions">
+      <xsd:simpleType name="char1">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="1" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="ZPRODWSCSA">
+        <xsd:sequence>
+          <xsd:element name="ITEM" type="xsd:string" />
+          <xsd:element name="FLUIDOS" type="xsd:string" />
+          <xsd:element name="DETALLE_PARTES" type="xsd:string" />
+          <xsd:element name="FECHA_I" type="xsd:string" />
+          <xsd:element name="MONTO" type="xsd:string" />
+          <xsd:element name="MAQUINA" type="tns:ZMAQWSCSAT" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZMAQWSCSA">
+        <xsd:sequence>
+          <xsd:element name="FAMILIA" type="xsd:string" />
+          <xsd:element name="MODELO_BASE" type="xsd:string" />
+          <xsd:element name="MODELO" type="xsd:string" />
+          <xsd:element name="PREFIJO" type="xsd:string" />
+          <xsd:element name="MAQUINA_NUEVA" type="xsd:string" />
+          <xsd:element name="NUMERO_SERIE" type="xsd:string" />
+          <xsd:element name="HOROMETRO_I" type="xsd:string" />
+          <xsd:element name="FECHA_HOROMETRO" type="xsd:string" />
+          <xsd:element name="HORAS_PROMEDIO" type="xsd:string" />
+          <xsd:element name="HOROMETRO_F" type="xsd:string" />
+          <xsd:element name="RENOVACION" type="xsd:string" />
+          <xsd:element name="RENOVACION_VAL" type="xsd:string" />
+          <xsd:element name="COD_DPTO" type="xsd:string" />
+          <xsd:element name="DEPARTAMENTO" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZPRODWSCSAT">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:ZPRODWSCSA" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZMAQWSCSAT">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:ZMAQWSCSA" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ZWS_RECIBE_COTIZACION_CSA">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ID_COTIZACION" type="xsd:string" />
+            <xsd:element name="PRODUCTO" type="tns:ZPRODWSCSAT" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZWS_RECIBE_COTIZACION_CSAResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="E_RESULTADO" type="tns:char1" />
+            <xsd:element name="MENSAJE_RESULTADO" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ZWS_RECIBE_COTIZACION_CSA">
+    <wsdl:part name="parameters" element="tns:ZWS_RECIBE_COTIZACION_CSA" />
+  </wsdl:message>
+  <wsdl:message name="ZWS_RECIBE_COTIZACION_CSAResponse">
+    <wsdl:part name="parameter" element="tns:ZWS_RECIBE_COTIZACION_CSAResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ZWS_IN_COT_CSA_B">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#IF_IF_ZWS_IN_COT_CSA_B" />
+    </wsp:Policy>
+    <wsdl:operation name="ZWS_RECIBE_COTIZACION_CSA">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_IF_OP_ZWS_RECIBE_COTIZACION_CSA" />
+      </wsp:Policy>
+      <wsdl:input message="tns:ZWS_RECIBE_COTIZACION_CSA" />
+      <wsdl:output message="tns:ZWS_RECIBE_COTIZACION_CSAResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ZWS_IN_COT_CSA_B" type="tns:ZWS_IN_COT_CSA_B">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#BN_BN_ZWS_IN_COT_CSA_B" />
+    </wsp:Policy>
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ZWS_RECIBE_COTIZACION_CSA">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ZWS_IN_COT_CSA_B_SOAP12" type="tns:ZWS_IN_COT_CSA_B">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#BN_BN_ZWS_IN_COT_CSA_B_SOAP12" />
+    </wsp:Policy>
+    <wsoap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ZWS_RECIBE_COTIZACION_CSA">
+      <wsoap12:operation soapAction="" style="document" />
+      <wsdl:input>
+        <wsoap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsoap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ZWS_IN_COT_CSA_B">
+    <wsdl:port name="ZWS_IN_COT_CSA_B" binding="tns:ZWS_IN_COT_CSA_B">
+      <soap:address location="http://fsacrmdevqa.dominio.ferreyros.com.pe:8001/sap/bc/srt/rfc/sap/zws_in_cot_csa_b/100/zws_in_cot_csa_b/zws_in_cot_csa_b" />
+    </wsdl:port>
+    <wsdl:port name="ZWS_IN_COT_CSA_B_SOAP12" binding="tns:ZWS_IN_COT_CSA_B_SOAP12">
+      <wsoap12:address location="http://fsacrmdevqa.dominio.ferreyros.com.pe:8001/sap/bc/srt/rfc/sap/zws_in_cot_csa_b/100/zws_in_cot_csa_b/zws_in_cot_csa_b" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

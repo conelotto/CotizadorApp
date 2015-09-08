@@ -1,0 +1,362 @@
+﻿body {
+}
+
+.TituloFormulario
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;		
+	color: #333333;
+	font-weight: bold;	
+	height: 30px;	
+	}
+	
+h2
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;		
+	color: #333333;
+	font-weight: bold;
+	margin-bottom:7px;
+	margin-top:10px;	
+	text-decoration:underline;
+}
+
+h3
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;		
+	color: #333333;
+	font-weight: bold;
+	margin-bottom:2px;
+	margin-top:2px;	
+	text-decoration:underline;
+}
+		
+.lblTexto
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;		
+	color: #333333;		
+	padding-left:3px;
+	text-decoration:underline;
+}
+
+.lblForm
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;		
+	color: #333333;		
+	padding-left:3px;
+}	
+
+.ComboControl
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-transform: none;
+	border:solid 1px #aacfe4;
+	padding:2px 2px;
+	color:#333333;	
+	margin-bottom: 0.1em;
+	margin-right: 0.1em;
+	margin-left: 0.1em;		
+}
+
+
+.watermark
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-transform: none;
+	border:solid 1px #aacfe4;
+	padding:2px 2px;
+	color:#333333;	
+	margin-bottom: 0.1em;
+	margin-top: 0.1em;
+	margin-right: 0.1em;
+	margin-left: 0.1em;
+	height: 14px;
+	color:#777;	
+	background-color:aliceblue;
+}
+
+.TextoControl
+{
+	margin: 0.1em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	border:solid 1px #aacfe4;
+	padding:2px 2px;
+	color:#333333;
+}
+
+.TextoControl2
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#333333;	
+	margin-right: 0.1em;
+	margin-bottom: 0.1em;
+	border-width:0px;
+	height: 16px;
+	text-align:right;
+}   
+
+.TextoControl3
+{
+	margin: 0.1em;
+    font-family: Courier New;
+	font-size: 11px;
+	border:solid 1px #aacfe4;
+	padding:2px 2px;
+	color:#333333;
+}
+ 
+.TextoImpresion
+{
+    font-family: Courier New;
+	font-size: 11px;
+	color:#333333;
+	border-style:none;
+	background-color:transparent;
+}
+
+.TextoImpresion2
+{
+    font-family: Courier New;
+	font-size: 10px;
+	color:#333333;
+}
+
+.TextoImpresion3
+{
+    font-family: Courier New;
+	font-size: 11px;
+	color:#333333;
+	border-style:none;
+	border-color:White;
+	margin-left: 0.1em;
+	margin-bottom : 0.1em;	
+	height: 16px;
+}   
+
+.previous{    
+    background:transparent url('../1.4 Imagen/grid/Prev1.png') no-repeat;
+    width:25px;
+    height:22px;
+    border:0px; 
+    cursor: hand;
+}
+.next{
+    background:transparent url('../1.4 Imagen/grid/Next1.png') no-repeat;
+    width:25px;
+    height:22px;
+    border:0px;    
+    cursor: hand;
+}
+.first{
+    background:transparent url('../1.4 Imagen/grid/First1.png') no-repeat;
+    width:25px;
+    height:22px;
+    border:0px;  
+    cursor: hand;  
+}
+.last{
+    background:transparent url('../1.4 Imagen/grid/Last1.png') no-repeat;
+    width:25px;
+    height:22px;
+    border:0px;  
+    cursor: hand;  
+}
+
+.lblTextControl
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	border:solid 1px #aacfe4;
+	padding:2px 2px;
+	color:#333333;	
+	height: 14px;
+} 
+
+.Paint_MouseOver
+{
+    background-color :#82BAFF;
+    color:#FFFFFF;
+    cursor:auto;
+}
+
+
+.Paint_MouseOut1
+{
+    background-color: #FFFFFF;
+    color: #333333;
+    cursor:hand;
+}
+
+.Paint_MouseOut2
+{
+    background-color :#edf5ff;
+    color: #333333;
+    cursor:hand;
+}
+
+.Paint_MouseOut1 td, .Paint_MouseOut2 td , .Paint_MouseOver td , .Paint_MouseSelected td
+{    
+    /*padding: 0px 5px 0px 10px;    */
+    border-style: none solid none solid;
+    border-width: 0px 1px 0px 0px;
+    height:18px;
+}
+
+.Paint_MouseSelected
+{
+    background-color :#FACD34;
+    color:#333333;
+    cursor:auto;
+}
+
+.grid
+{
+    font-family:Arial;
+    font-size:10pt;
+    width:600px
+}
+
+.grid THEAD
+{
+        background-color:Green;
+        color:White;
+}
+
+.Paint_MouseSelectedImp
+{
+    background-color :#FACD34;
+    color:#333333;
+}
+      
+.Paint_MouseOverImp
+{
+    background-color :#82BAFF;
+    color:#FFFFFF;
+}
+
+.Paint_MouseOut1Imp
+{
+    background-color:White;
+    color: #333333;
+}
+
+.Paint_MouseOut2Imp
+{
+    background-color :#edf5ff;
+    color: #333333;
+}
+
+.Paint_MouseOut1Imp td, .Paint_MouseOut2Imp td , .Paint_MouseOverImp td , .Paint_MouseSelectedImp td
+{    
+    border-style: solid solid solid solid;
+    border-width: 1px 1px 1px 1px;
+    height:14px;
+}
+
+div.divLista_1
+{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-color: #C4E0FF; 
+    border-style: solid; 
+    border-width: 1px;
+    scrollbar-darkshadow-color:#C4E0FF;
+    scrollbar-arrow-color:#3b5998;
+
+}
+
+div.divLista_2
+{
+    overflow: hidden;
+    border-style: none; 
+}
+
+div.divForm1
+{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-style: solid;
+    border-color: Gray;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px; 
+    scrollbar-darkshadow-color:#C4E0FF;
+    scrollbar-arrow-color:#3b5998;    
+}
+
+div.divForm2
+{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-style: solid;
+    border-color: Gray;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 0.5px; 
+    scrollbar-darkshadow-color:#C4E0FF;
+    scrollbar-arrow-color:#3b5998;    
+}
+
+div.divHead
+{
+    overflow:inherit;
+    border-style: solid;
+    border-color: Gray;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+div.divRow
+{
+    overflow:auto;
+    border-style: solid;
+    border-color: Gray;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0.5px;
+    border-right-width: 0.5px;  
+    scrollbar-darkshadow-color:#C4E0FF;
+    scrollbar-arrow-color:#3b5998;    
+}
+
+div.divMain
+{
+    border: 1px solid Gray;
+    overflow: hidden;
+    height: 279px;
+}
+
+.DisplayNone
+{
+    display: none;
+    height:0px;
+    width:0px;  
+}
+
+
+
+.Button4 {
+/*-webkit-box-shadow: rgba(0, 0, 0, 0.0.97) 0px 1px 0px 0px;
+	background-color: #5B74A8;
+	border: 1px solid #29447E;*/
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	/*font-weight: bold;
+	padding: 2px 6px;
+	height: 22px;
+	color: #fff;
+	border-radius: 5px;*/
+}

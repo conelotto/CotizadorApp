@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{24323C3F-4F05-41FA-914C-4FA8F1EAF6EE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ferreyros.ClasServicioCotizador</RootNamespace>
+    <AssemblyName>Ferreyros.ClasServicioCotizador</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ferreyros.ClasServicioCotizador.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ferreyros.ClasServicioCotizador.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Nucleo\Nucleo 2010\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoDatos\daConsultaAS400.vb" />
+    <Compile Include="AccesoDatos\daCotizacion.vb" />
+    <Compile Include="AccesoDatos\daCotizacionContacto.vb" />
+    <Compile Include="AccesoDatos\daCotizacionVersion.vb" />
+    <Compile Include="AccesoDatos\daDetalleRecompra.vb" />
+    <Compile Include="AccesoDatos\daHomologacion.vb" />
+    <Compile Include="AccesoDatos\daProducto.vb" />
+    <Compile Include="AccesoDatos\daProductoAccesorio.vb" />
+    <Compile Include="AccesoDatos\daProductoAlquiler.vb" />
+    <Compile Include="AccesoDatos\daProductoCaracteristica.vb" />
+    <Compile Include="AccesoDatos\daProductoCSA.vb" />
+    <Compile Include="AccesoDatos\daMaquinaria.vb" />
+    <Compile Include="AccesoDatos\daProductoDetallePrecios.vb" />
+    <Compile Include="AccesoDatos\daProductoPrime.vb" />
+    <Compile Include="AccesoDatos\daProductoAdicional.vb" />
+    <Compile Include="AccesoDatos\daProductoSolucionCombinada.vb" />
+    <Compile Include="AccesoDatos\daTelefonoContacto.vb" />
+    <Compile Include="AccesoDatos\daProductoAlquilerTarifa.vb" />
+    <Compile Include="AccesoDatos\daTelefonoResponsable.vb" />
+    <Compile Include="Entidad\beCotizacionVersion.vb" />
+    <Compile Include="Entidad\beEmailDato.vb" />
+    <Compile Include="Entidad\beHomologacion.vb" />
+    <Compile Include="Entidad\beLink.vb" />
+    <Compile Include="Entidad\beEmail.vb" />
+    <Compile Include="clsGeneral.vb" />
+    <Compile Include="Entidad\beProducto.vb" />
+    <Compile Include="Entidad\beProductoAccesorio.vb" />
+    <Compile Include="Entidad\beProductoAlquiler.vb" />
+    <Compile Include="Entidad\beProductoCaracteristica.vb" />
+    <Compile Include="Entidad\beProductoCSA.vb" />
+    <Compile Include="Entidad\beTelefonoResponsable.vb" />
+    <Compile Include="Entidad\beValidacion.vb" />
+    <Compile Include="Entidad\beCotizacion.vb" />
+    <Compile Include="Entidad\beCotizacionContacto.vb" />
+    <Compile Include="Entidad\beDetalleRecompra.vb" />
+    <Compile Include="Entidad\beMaquinaria.vb" />
+    <Compile Include="Entidad\beProductoAdicional.vb" />
+    <Compile Include="Entidad\beProductoPrime.vb" />
+    <Compile Include="Entidad\beProductoAlquilerTarifa.vb" />
+    <Compile Include="Entidad\beProductoSolucionCombinada.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Negocio\bcCotizacion.vb" />
+    <Compile Include="Negocio\bcHomologacion.vb" />
+    <Compile Include="Entidad\beProductoDetallePrecios.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entidad\ClasServicioCotizador.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ferreyros.Utiles\Ferreyros.Utiles.vbproj">
+      <Project>{1E67041F-EA1A-43F5-8634-AC6677C19EA8}</Project>
+      <Name>Ferreyros.Utiles</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

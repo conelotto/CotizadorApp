@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ferreyros.ClasServicioCotizador.beCotizacion">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>YASAAApIAQQQEAAAEAhCBASDAREEIEAAIAAEJcDkyAY=</HashCode>
+      <FileName>Entidad\beCotizacion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beCotizacionContacto">
+    <Position X="4.25" Y="2.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAGAAAAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Entidad\beCotizacionContacto.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beProductoPrime">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgCERCICAACAAMACMEkAgQACAIIIICDgAAAJhAKxACU=</HashCode>
+      <FileName>Entidad\beProductoPrime.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beDetalleRecompra">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AiAIACAAAABAAEAAAEIAUAAAAAAAAEAAAgAoCAgBACA=</HashCode>
+      <FileName>Entidad\beDetalleRecompra.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beMaquinaria">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAEEgCAgAKABAMAEAEAAAQaQCQAAQDAAAAgMAAAAAMA=</HashCode>
+      <FileName>Entidad\beMaquinaria.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beProductoAdicional">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgIAAGEIQAAAJIBAAFAMJgAQAAAAAAAAAyAsABAACgA=</HashCode>
+      <FileName>Entidad\beProductoAdicional.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beValidacion">
+    <Position X="10.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACAAQCAABAQAAAAAIAQAAAAAgAAAAQAAAAgAgAAACA=</HashCode>
+      <FileName>Entidad\beValidacion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beProductoCSA">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gBABAAAQGAAAAAAAIAEACEEPQAABhBQAGAAMQQAEAAY=</HashCode>
+      <FileName>Entidad\beProductoCSA.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beEmail">
+    <Position X="1.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIBAWAAEAAAAIAAAAAYEAAKDAAAAAQACCAAAAAEAMEA=</HashCode>
+      <FileName>Entidad\beEmail.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beLink">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAABAAAAAAAAAgAIAAAAAAAAACAAAAAAAAAQ=</HashCode>
+      <FileName>Entidad\beLink.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beEmailDato">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAACAAAACAA=</HashCode>
+      <FileName>Entidad\beEmailDato.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beCotizacionVersion">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACDAACAAAAoAAEEAAEAAEgBQEAAAQBEAAAAIQAAAAgA=</HashCode>
+      <FileName>Entidad\beCotizacionVersion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beProductoAccesorio">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAQACMAAAAAAABAAAAIAgAQBAAAAAAAAoAAAAAAAAA=</HashCode>
+      <FileName>Entidad\beProductoAccesorio.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beProductoAlquilerTarifa">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AiIAACAAAAAAAAAAAAEAAAAAAAAAAAAAAgAIAIAAAAA=</HashCode>
+      <FileName>Entidad\beProductoAlquilerTarifa.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ferreyros.ClasServicioCotizador.beProductoCaracteristica">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgIAACAAAAAAAAAAAAAAAAAAABAAAgAAAgRAAEAAAAA=</HashCode>
+      <FileName>Entidad\beProductoCaracteristica.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

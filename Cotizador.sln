@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Cotizador", "Cotizador\Cotizador.vbproj", "{69090C15-A417-47A2-865B-9D894FA5994F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6EB44304-5CB7-483E-BB0A-6379050443CE} = {6EB44304-5CB7-483E-BB0A-6379050443CE}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ferreyros.BECotizador", "Ferreyros.BECotizador\Ferreyros.BECotizador.vbproj", "{823DD200-7638-4CDC-8E60-6325FF385BB6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ferreyros.DACotizador", "Ferreyros.DACotizador\Ferreyros.DACotizador.vbproj", "{EDDC275F-18C5-4704-B5F6-1A976CF18D1A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ferreyros.BCCotizador", "Ferreyros.BCCotizador\Ferreyros.BCCotizador.vbproj", "{24CB2775-F961-4272-A3CE-6B16800B9E54}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ferreyros.Utiles", "Ferreyros.Utiles\Ferreyros.Utiles.vbproj", "{1E67041F-EA1A-43F5-8634-AC6677C19EA8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ferreyros.WCFCotizador", "Ferreyros.WCFCotizador\Ferreyros.WCFCotizador.vbproj", "{6EB44304-5CB7-483E-BB0A-6379050443CE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ferreyros.ClasServicioCotizador", "Ferreyros.ClasServicioCotizador\Ferreyros.ClasServicioCotizador.vbproj", "{24323C3F-4F05-41FA-914C-4FA8F1EAF6EE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Pruebas", "Pruebas\Pruebas.vbproj", "{B1B98DA6-39C8-438C-998F-DD91D38EBB7E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://fsalima149:8080/tfs/ferreyrostfs2010
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Cotizador\\Cotizador.vbproj
+		SccProjectName1 = Cotizador
+		SccLocalPath1 = Cotizador
+		SccProjectUniqueName2 = Ferreyros.BCCotizador\\Ferreyros.BCCotizador.vbproj
+		SccProjectName2 = Ferreyros.BCCotizador
+		SccLocalPath2 = Ferreyros.BCCotizador
+		SccProjectUniqueName3 = Ferreyros.BECotizador\\Ferreyros.BECotizador.vbproj
+		SccProjectName3 = Ferreyros.BECotizador
+		SccLocalPath3 = Ferreyros.BECotizador
+		SccProjectUniqueName4 = Ferreyros.ClasServicioCotizador\\Ferreyros.ClasServicioCotizador.vbproj
+		SccProjectName4 = Ferreyros.ClasServicioCotizador
+		SccLocalPath4 = Ferreyros.ClasServicioCotizador
+		SccProjectUniqueName5 = Ferreyros.DACotizador\\Ferreyros.DACotizador.vbproj
+		SccProjectName5 = Ferreyros.DACotizador
+		SccLocalPath5 = Ferreyros.DACotizador
+		SccProjectUniqueName6 = Ferreyros.Utiles\\Ferreyros.Utiles.vbproj
+		SccProjectName6 = Ferreyros.Utiles
+		SccLocalPath6 = Ferreyros.Utiles
+		SccProjectUniqueName7 = Ferreyros.WCFCotizador\\Ferreyros.WCFCotizador.vbproj
+		SccProjectName7 = Ferreyros.WCFCotizador
+		SccLocalPath7 = Ferreyros.WCFCotizador
+		SccProjectUniqueName8 = Pruebas\\Pruebas.vbproj
+		SccProjectName8 = Pruebas
+		SccLocalPath8 = Pruebas
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69090C15-A417-47A2-865B-9D894FA5994F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69090C15-A417-47A2-865B-9D894FA5994F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69090C15-A417-47A2-865B-9D894FA5994F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69090C15-A417-47A2-865B-9D894FA5994F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823DD200-7638-4CDC-8E60-6325FF385BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823DD200-7638-4CDC-8E60-6325FF385BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823DD200-7638-4CDC-8E60-6325FF385BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823DD200-7638-4CDC-8E60-6325FF385BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDC275F-18C5-4704-B5F6-1A976CF18D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDC275F-18C5-4704-B5F6-1A976CF18D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDC275F-18C5-4704-B5F6-1A976CF18D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDC275F-18C5-4704-B5F6-1A976CF18D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CB2775-F961-4272-A3CE-6B16800B9E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CB2775-F961-4272-A3CE-6B16800B9E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CB2775-F961-4272-A3CE-6B16800B9E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CB2775-F961-4272-A3CE-6B16800B9E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E67041F-EA1A-43F5-8634-AC6677C19EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E67041F-EA1A-43F5-8634-AC6677C19EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E67041F-EA1A-43F5-8634-AC6677C19EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E67041F-EA1A-43F5-8634-AC6677C19EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB44304-5CB7-483E-BB0A-6379050443CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB44304-5CB7-483E-BB0A-6379050443CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB44304-5CB7-483E-BB0A-6379050443CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB44304-5CB7-483E-BB0A-6379050443CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24323C3F-4F05-41FA-914C-4FA8F1EAF6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24323C3F-4F05-41FA-914C-4FA8F1EAF6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24323C3F-4F05-41FA-914C-4FA8F1EAF6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24323C3F-4F05-41FA-914C-4FA8F1EAF6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B98DA6-39C8-438C-998F-DD91D38EBB7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B98DA6-39C8-438C-998F-DD91D38EBB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B98DA6-39C8-438C-998F-DD91D38EBB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B98DA6-39C8-438C-998F-DD91D38EBB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

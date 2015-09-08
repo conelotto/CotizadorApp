@@ -1,0 +1,94 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:GridView runat="server" 
+              SkinId="dgvDirectorio" 
+              AllowPaging="True" 
+              CellPadding="2" 
+              ForeColor="#333333" 
+              GridLines="Horizontal" 
+              AutoGenerateColumns="False" 
+              CssClass="GridTexto" 
+              PageSize="10">              
+   <RowStyle BackColor="#F9FAFB" BorderStyle="Solid" BorderWidth ="1px" BorderColor ="#98B8E8" Wrap="False" />
+   <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" Wrap="False" />   
+   <PagerStyle BackColor="#D8E8F8" ForeColor="#1D5987" HorizontalAlign="left" BorderStyle="Solid" BorderWidth ="1px" BorderColor  ="#98B8E8" Wrap="False"/> 
+   <HeaderStyle BackColor="#DFEFFC" Font-Bold="True" ForeColor="#1D5987" BorderStyle="Solid" BorderWidth ="1px" BorderColor  ="#98B8E8" Wrap="False" />
+   <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" Wrap="False" />
+   <EditRowStyle BackColor="#2461BF" />
+   <AlternatingRowStyle BackColor="#F9FAFB" />    
+</asp:GridView>
+
+<%-- dgvDirectorioNoPaging --%>
+<asp:GridView runat="server" 
+              SkinId="dgvDirectorioNoPaging" 
+              AllowPaging="False" 
+              CellPadding="2" 
+              ForeColor="#333333" 
+              GridLines="Horizontal" 
+              AutoGenerateColumns="False" 
+              CssClass="GridTexto" >   
+   <RowStyle BackColor="#F9FAFB" BorderStyle="Solid" BorderWidth ="1px" BorderColor  ="#98B8E8" Wrap="False" />
+   <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" Wrap="False" />   
+   <PagerStyle BackColor="#D8E8F8" ForeColor="#1D5987" HorizontalAlign="left" BorderStyle="Solid" BorderWidth ="1px" BorderColor  ="#98B8E8" Wrap="False"/> 
+   <HeaderStyle BackColor="#DFEFFC" Font-Bold="True" ForeColor="#1D5987" BorderStyle="Solid" BorderWidth ="1px" BorderColor  ="#98B8E8" Wrap="False" />
+   <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" Wrap="False" />
+   <EditRowStyle BackColor="#2461BF" />
+   <AlternatingRowStyle BackColor="White" />       
+</asp:GridView>
+
+<asp:Menu SkinID="MenuHorizontal" 
+          runat="server"    
+          Orientation="Horizontal" 
+          MaximumDynamicDisplayLevels="5"
+          StaticSubMenuIndent="10"
+          style="cursor: hand"                   
+          Font-Size="11px" 
+          Font-Names="Verdana"
+          DynamicHorizontalOffset="0" 
+          DynamicVerticalOffset="0"
+          StaticEnableDefaultPopOutImage="true">          
+    <StaticMenuItemStyle  ForeColor="#0000FF" HorizontalPadding="5px" VerticalPadding="3px" />
+    <StaticHoverStyle ForeColor="#0000FF" BackColor="#FFF272" />
+    <DynamicMenuItemStyle ForeColor="#0000FF" HorizontalPadding="5px" VerticalPadding="1px" BorderStyle="Solid" BorderWidth ="1px" BorderColor  ="#F4F4F4"/>
+    <DynamicHoverStyle ForeColor="#0000FF" BackColor="#FFF272" BorderStyle="Solid" BorderWidth ="1px" BorderColor  ="#f7db36"  />
+    <DynamicMenuStyle BackColor="white" CssClass="nav-bar" />
+    <DynamicSelectedStyle />           
+</asp:Menu>
+<%--
+<asp:Menu SkinID="MenuHor" runat="server"
+          MaximumDynamicDisplayLevels="5"
+          DynamicHorizontalOffset="2"
+          Font-Size="1.0em" 
+          ForeColor = "Black"
+          StaticSubMenuIndent="10" 
+          Width="400px" 
+          Orientation="Horizontal" style="cursor: hand"  >          
+    <StaticSelectedStyle BackColor="Gainsboro" ForeColor="#0e6928" />
+    <StaticMenuItemStyle BackColor="White" ForeColor="Black" 
+                         HorizontalPadding="6px" VerticalPadding="3px" Font-Size="1.0em"/>
+    <StaticHoverStyle BackColor="Gainsboro" ForeColor="#0e6928" Height="3px" BorderColor="Gainsboro" BorderWidth="0.01em"/>
+    <DynamicHoverStyle BackColor="Gainsboro" ForeColor="#0e6928" />
+    <DynamicMenuStyle BackColor="white" CssClass="nav-bar"/>
+    <DynamicSelectedStyle BackColor="Black" />
+    <DynamicMenuItemStyle HorizontalPadding="4px" 
+                          VerticalPadding="3px" Width="200px" BorderColor="Gainsboro"  
+                          BorderWidth="0.01em" BorderStyle="Dotted"  Font-Size="0.9em"/>
+</asp:Menu>
+--%>
+
+<asp:RoundedCornersExtender  SkinID="ToolbarBordeRedondeado" runat="server" 
+    Radius ="6" Corners="All" BorderColor="#B0C8E0"  Color="#F0F8FF"  >
+    </asp:RoundedCornersExtender>

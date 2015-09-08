@@ -1,0 +1,348 @@
+﻿.tablestyle
+{
+	font-family: arial;
+	font-size: 10px;
+	border: solid 1px #C4E0FF; /*#7f7f7f;*/
+}
+
+
+.footerstyle
+{	
+}
+
+.pagerstyle td
+{
+    border-color: #C4E0FF; 
+    border-style: solid none none none;
+    border-width: 1px 0px 0px 0px;
+}
+
+.pagerstyle table td
+{
+    border-width: 0px;     
+}
+
+.pagerstyle
+{
+	border-width:0px;
+	border-style:none; 
+	background:url('../1.4 Imagen/sprite.png') repeat-x 0px -1305px;	
+}
+
+.altrowstyle 
+{
+
+    background-color: #e2e2e2;
+    font-family: Verdana;
+    font-size: 9pt;      
+}
+
+.rowstyle
+{
+    
+	background: url('../1.4 Imagen/sprite.png') repeat-x 0px -1500px;
+    /*background-color: #FFFFFF; */
+    font-family: Verdana;
+    font-size: 9pt;    
+}
+
+.headerstyle th 
+{
+    /*background: url('/1.4 Imagen/grid/sprite.png') repeat-x 0px -5px;*/
+    background: url('../1.4 Imagen/sprite.png') repeat-x 0px -100px;
+    
+    /*border-color: #C4E0FF;*/
+    
+    /*border-color: #989898 #cbcbcb #989898 #989898;*/
+    height: 25px;
+    /*border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #000;
+    padding: 0px 5px 0px 10px;
+    text-align: center;
+    vertical-align: middle;    
+    font-weight:normal; */
+    color: Black ;
+    /*background-color: #999999;*/
+    font-family: Verdana;
+    font-size: 9pt;
+    border-width: 0px 0px 0px 0px;
+}  
+
+.headerstyle th a
+{
+    font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+    color: #000;
+	display: block;
+    padding-right: 10px;
+}    
+
+.rowstyle .sortaltrow, .altrowstyle .sortaltrow 
+{
+    background-color: #edf5ff;
+}
+
+.rowstyle .sortrow, .altrowstyle .sortrow 
+{
+    background-color: #dbeaff;
+}
+
+
+.rowstyle td, .altrowstyle td 
+{    
+    padding: 0px 2px 0px 2px;    
+    border-style: none solid none solid;
+    border-width: 0px 0px 0px 0px;
+    height: 20px;
+    /*border-right: solid 1px #cbcbcb;
+    border-top-style : none; 
+    border-bottom-style : none;*/
+}
+
+.headerstyle .sortascheader 
+{
+    /*background: url('/1.4 Imagen/grid/sprite.png') repeat-x 0px -100px;*/
+    background:url('/1.4 Imagen/sprite.png') repeat-x 0px -1700px;
+}
+
+.headerstyle .sortascheader a 
+{
+    background: url('/1.4 Imagen/grid/dt-arrow-up.png') no-repeat right 50%;	
+} 
+
+.headerstyle .sortdescheader 
+{
+    /*background: url('/1.4 Imagen/grid/sprite.png') repeat-x 0px -100px;*/
+    background:url('/1.4 Imagen/sprite.png') repeat-x 0px -1700px;
+}   
+
+.headerstyle .sortdescheader a 
+{
+    background: url('/1.4 Imagen/dt-arrow-dn.png') no-repeat right 50%;
+} 
+
+
+/* table level rules */
+.grid
+{
+	font-family: tahoma;
+	font-size: 11px;
+	border: solid 1px #7f7f7f;
+	border-bottom-width:1px;
+    border-collapse:collapse;
+    color: #333333;
+    width:100%
+}
+
+
+/* header column rules */
+.grid th 
+{
+    background: url(../img/sprite.png) repeat-x 0px 0px;
+    border-color: #989898 #cbcbcb #989898 #989898;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #000;
+    padding: 4px 5px 4px 10px;
+    vertical-align: bottom;
+    text-align:left;
+}  
+
+.grid th a
+{
+	color:#333333;
+    font-weight: bold;
+	text-decoration: none;
+	display: block;
+    padding-right: 10px;
+}
+
+/* data cell and data row rules */
+.grid td 
+{
+	color:#333333;
+    padding: 4px 10px 4px 10px;
+    border-bottom: solid 1px #BBD9EE;
+}
+
+.grid .altrow
+{
+    background-color: #EBF4FA;
+} 
+
+.grid .row
+{
+    background-color: #fff;
+}  
+
+.grid .rownum
+{
+	width:15px;
+    text-align:center;
+    padding-left:0px;
+    font-weight:bold;
+    color:#333333;
+}
+
+/* group header */
+.grid .group span
+{
+	padding:10px 0px 2px 0px;
+	color:#666666;
+	text-align:left;
+	font-size:13px;
+	font-weight:bold;
+	cursor:pointer;
+} 
+.grid .group img
+{
+	cursor:pointer;
+}
+
+.dialog
+{
+    font-family:Tahoma;
+    font-size:11pt;
+    color:#222222;
+    background-color:#fff;
+}    
+
+/* header styles */
+.headerGrid
+{
+    position:relative;
+    color:#fff;        
+    cursor:move; /* So the user knows they can drag the panel */
+}
+.headerGrid .outer
+{
+    background:url(../img/top-right.png) right no-repeat;
+    padding-right:40px;
+}
+.headerGrid .inner
+{
+    background:url(../img/top-left.png) left no-repeat;
+    padding-left:9px;
+}
+.headerGrid .content
+{
+    height:35px;
+    background:url(../img/top-mid.png) repeat-x;
+}
+.headerGrid .content H2
+{
+    font-size:12pt;
+    font-weight:bold;
+    color:#fff;
+    padding-top:6px;
+    margin:0;
+}
+.headerGrid .close
+{
+    /* the image is 35x35 pixels wide */
+    height:25px;
+    width:35px;	
+    /* position the image */
+    position:absolute;	
+    top:4px;
+    right:7px;	
+    background:url(../img/close.png) no-repeat;	
+    cursor:pointer;
+}
+.headerGrid .close:hover
+{
+    /* set the hover image */
+    background:url(../img/close-hover.png) no-repeat;	
+}        
+
+/* dialog body styles */
+.body
+{
+}
+.body .outer
+{
+    background:url(../img/right.png) right repeat-y;
+    padding-right:7px;
+}
+.body .inner
+{
+    background:url(../img/left.png) left repeat-y;
+    padding-left:7px;
+}
+.body .content
+{
+}  
+.body .content H2
+{
+    padding:10px;
+    margin:0px;
+    text-align:center;
+    font-size:11pt;
+    color:#222222;            
+    font-weight:normal;
+}           
+.body .content .footer
+{
+    /* footer image is 41 pixels tall */    
+    background:url(../img/footer.gif) repeat-x bottom;
+    height:41px;
+}
+.body .content .footer .commands
+{
+    text-align:right;
+    padding:8px;
+}           
+.body .content .footer .commands INPUT
+{
+    /* keep the buttons a consistent size */    
+    width:75px;        
+}                   
+
+/* dialog footer styles */
+.footer
+{
+}
+.footer .outer
+{
+    background:url(../img/bottom-right.png) right top no-repeat;
+    padding-right:9px;
+}
+.footer .inner
+{
+    background:url(../img/bottom-left.png) left top no-repeat;
+    padding-left:9px;
+}
+.footer .content
+{
+    height:7px;
+    background:url(../img/bottom-mid.png) repeat-x;        
+}   
+        
+.updating
+{
+    color:#808080;
+    background:url(../img/activity.gif) no-repeat center;
+}  
+
+.pager
+{
+    height:30px;
+    background:url(../img/pager_bg.gif) repeat-x;
+}
+.pager .container
+{
+    padding:4px;
+}
+.pager .command
+{
+    float:left;
+    padding-right:5px;
+}    
+.pager .info
+{
+    font-size:12px;
+    padding:4px 0px;
+    float:right;
+}

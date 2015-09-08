@@ -1,0 +1,393 @@
+﻿body {
+    
+}
+/*Style Grid*/
+.GridTexto
+{
+    font-family:Verdana,Arial,Trebuchet MS;
+    font-size:10px;
+    border-style :solid !important;
+    border-width:1px !important;
+    border-color:#98B8E8 !important;        
+}
+.GridHeader,.GridHeader th
+{
+    background-color:#D8E8F8 !Important;
+    font-weight:bold !important;
+    color:#1D5987 !important;  
+    font-size:11px; 
+    font-family:Arial,Verdana,Trebuchet MS;
+    /*border-style :solid ;
+    border-width:1px;*/
+    border-color : #98B8E8;
+}
+
+.GridFooter
+{
+    background-color:#D8E8F8 !Important;
+    font-weight:bold !important;
+    color:#1D5987 !important;  
+    font-size:11px; 
+    font-family:Arial,Verdana,Trebuchet MS;
+    border-style :solid ;
+    border-width:1px;
+    border-color : #98B8E8
+}
+/*Fin Style Grid*/
+
+/* Style Titulo*/
+
+.ToolbarTitulo
+{ 
+   /*background : url('../Recursos/Img/ToolbarTitulo.jpg') #B0C8E8 ; */
+   background-color: #F0F8FF;/*#F1F1F2;*/
+   background-repeat :repeat-x ; 
+   width:100%;
+   height:20px !important;
+   margin-left:0px !important; 
+}
+.PageSubTitulo
+{
+
+}
+.Enlace
+{
+ color :#0066FF !important;    
+}
+.TextoTitulo
+{
+    font-size:16px; 
+    font-family:Arial Black,Arial  ;
+    padding-left:05px; 
+    color:#182838;  
+}
+
+.TextoBody
+{
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px !important;
+}
+/*.GridTexto tbody tr:hover, .GridTexto tbody tr:hover td, .GridTexto tbody tr.hover, .GridTexto tbody tr.hover td */
+ .GridTexto tbody tr:hover,.GridTexto tbody tr:hover td
+{
+    background:#FFF272;
+    /*color:#333;*/
+    font-size:11px;    
+    border-color: #f7db36 !important; 
+    border-bottom-color: #f7db36 !important;
+    border-top-style:solid !important; 
+    border-bottom-style:solid !important; 
+    border-bottom-width:1px !important; 
+    border-top-width:1px !important;   
+    /*border: 1px solid #F8B838; */
+ }
+ table tr
+ {
+      border-style :solid !important;
+    border-width:1px !important;
+    border-color : #98B8E8 !important;
+     }
+.GridTexto tbody td
+ {
+    border-style :solid !important;
+    border-width:1px !important;
+    border-color : #98B8E8 !important;
+    /*border-Top-style  :solid !important;
+    border-Top-width:1px !important;
+    border-Top-color : #98B8E8 !important;
+    
+    border-bottom-style  :solid !important;
+    border-bottom-width:1px !important;
+    border-bottom-color : #98B8E8 !important;*/
+ }
+/*Controles*/
+input[type="text"]
+{ 
+    border: 1px solid #C8C8C8;    
+    font-size:11px;
+}
+
+textarea
+{ 
+    border: 1px solid #C8C8C8 !important;    
+    font-size:11px;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+select
+{
+    border: 1px solid #C8C8C8;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px !important; 
+}
+input[type="text"][readonly] {   
+   /*background-color:#F0F0F0;
+   color:#76848E;*/
+   background-color:#FCFCFC;
+   color:#848891; 
+} 
+textarea[readonly] {   
+   background-color:#F0F0F0;
+   color:#76848E;
+} 
+select[disabled] {   
+   background-color:#F0F0F0;
+   color:#76848E !important;
+   border: 1px solid #C8C8C8;
+} 
+
+fieldset 
+{
+    /*border:1px solid #ddd !important;  
+    background-color:#F9FAFB !important; */
+    border:1px solid #ddd !important;  
+    background-color:#FDFEFC !important; 
+}
+.ToolbarSiteMapth
+{
+    background : url('../Recursos/Img/Toolbar.jpg') #C8C8C8;  
+    border-style:solid !important;
+    border-width:1px !important;
+    border-color: #A0A098 !important;     
+}
+.divHeadTitle100
+{
+    border: solid 1px #B0C8E0;
+    background-color: #D8E8F8;/*#E0E8F8;*/
+    color:#182838;
+    margin-right:10px !important;
+    border-bottom-width:0px;
+    padding-left:5px;
+    font-weight:bold ;
+    font-size:11px; 
+    width:99%;
+ }
+ 
+ .divContenido100
+ {
+   border: solid 1px #B0C8E0;     
+   width:99%; 
+   margin-bottom:5px;
+   padding-bottom:5px;
+   padding-top:5px;
+   padding-left:5px;
+   font-family: Verdana, Helvetica, sans-serif;
+   font-size: 11px;
+ }
+ 
+ .divLoadingMensaje
+{
+    width: 200px;
+    height: 50px;
+    padding-top: 25px;
+    background-color: White !important; /*#F7F7F7;*/
+    border: solid 1px #C1CED7 !important;
+    border-right: solid 4px #C1CED7 !important;
+    border-bottom : solid 4px #C1CED7 !important;
+    text-align: center;
+    vertical-align: middle !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /*margin-left: -75px;
+    margin-top: -15px;
+    overflow: visible;*/
+    z-index: 1012;
+    color :Black;
+}
+
+.divLoading
+{
+    width: 100% !important;
+    /*height: 1100px;*/
+    /*height: 100% !important;*/
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 0px !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    background-color:#E8F2FB;
+    filter: alpha(opacity=50);
+    mozopacity: 0.5;
+    opacity: 0.5;
+    z-index: 1011;
+}
+.divMenu
+{   
+    color:#C8C8C8;
+    height:23px !important;
+    padding-top:0px !important;
+    margin-top:0px !important;
+    vertical-align:middle !important;
+    width : 100%; 
+    /*border:1px solid #C3D9B9 !Imprtant;*/
+    border:1px solid #A0A098 !Imprtant;
+    margin-bottom:5px;
+     /*background-color:#EEF3E7;*/
+    background : url('../Images/Toolbar.jpg');
+}
+
+.level2 li 
+{
+    color:white; 
+}
+
+.divMenu li
+{
+    padding-right:15px; 
+}
+
+.divBanner
+{
+ background-color:white;/*#49833D;*/
+ color:#1D598F;    
+ }
+.controlOculto
+{
+    display:none ; 
+}
+.div100
+{
+    width:100%;
+    float :left; 
+    padding-top:10px; 
+    height:23px !important; 
+}   
+.div90
+{
+    width:90%;
+    float :left; 
+    padding-top:10px; 
+    height:23px !important; 
+}
+.div80
+{
+    width:80%;
+    float :left; 
+    padding-top:10px; 
+    height:23px !important; 
+}
+.div70
+{
+    width:70%;
+    float :left; 
+    padding-top:10px; 
+    height:23px !important; 
+}
+.div60
+{
+    width:60%;
+    float :left; 
+    padding-top:10px;
+    height:23px !important;  
+}
+.div50
+{
+    width:50%;
+    float :left; 
+    padding-top:10px;
+    height:23px !important;  
+}
+.div40
+{
+    width:40%;
+    float :left; 
+    padding-top:10px;
+    height:23px !important;  
+}
+.div30
+{
+    width:30%;
+    float :left; 
+    padding-top:10px;
+    height:23px !important; 
+}
+.div20
+{
+    width:20%;
+    float :left; 
+    padding-top:10px; 
+    height:23px !important; 
+}
+.div10
+{
+    width:10%;
+    float :left; 
+    padding-top:10px; 
+    height:23px !important; 
+}
+.divLabel10
+{
+    width :10%;
+    text-align :right ;
+    padding-top:10px;
+    float :left ; 
+    vertical-align :middle;
+}.divLabel15
+{
+    width :15%;
+    text-align :right ;
+    padding-top:10px;
+    float :left ; 
+    vertical-align :middle;
+}
+.divLabel20
+{
+    width :20%;
+    text-align :right ;
+    padding-top:10px;
+    float :left ; 
+    vertical-align :middle;
+}
+.divLabel25
+{
+    width :25%;
+    text-align :right ;
+    padding-top:10px;
+    float :left ; 
+    vertical-align :middle;
+}
+
+.divLabel30
+{
+    width :30%;
+    text-align :right ;
+    padding-top:10px;
+    float :left ; 
+    vertical-align :middle;
+}
+
+.divLabel35
+{
+    width :35%;
+    text-align :right ;
+    padding-top:10px;
+    float :left ; 
+    vertical-align :middle;
+}
+
+.divLabel40
+{
+    width :40%;
+    text-align :right ;
+    padding-top:10px;
+    float :left ; 
+    vertical-align :middle;
+}
+.FormatoTexto
+{
+    font-family: Verdana, Arial ;
+	font-size:11px; 
+}
+.divTituloSubRayado
+{
+    border-bottom-style:solid;
+    border-bottom-width:2px;    
+   border-bottom-color:#73AAD3;    
+   padding-bottom:5px;
+   font-size:14px; 
+   font-weight:bold;  
+   vertical-align:middle;    
+   
+}
