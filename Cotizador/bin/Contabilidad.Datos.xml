@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Contabilidad.Datos
+</name>
+</assembly>
+<members>
+<member name="M:Ferreyros.Contabilidad.Datos.VoucherManual.ActualizarEstado(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String@)">
+	<summary>Actualiza el estado de un voucher manual</summary>
+	<param name="pi_strEstadoHost">Nuevo estado pra el voucher (P:Protegido, C:consistente, S:Contabilizado, Vacío:Pendiente)</param>''' 
+ <param name="pi_strFechaHost">Fecha de actualización del estado YYYYMMDD.</param>
+	<param name="pi_strHoraHost">Hora de actualización del estado HHMMSS.</param>
+	<param name="pi_strFechaMod">Fecha de modificación del voucher YYYYMMDD.</param>
+</member><member name="M:Ferreyros.Contabilidad.Datos.VoucherManual.ActualizarNumeroSAP(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String@)">
+	<summary>Actualiza los datos del documento SAP en el voucher manual</summary>
+	<param name="pi_strPerconSAP">Periodo contable SAP</param>''' 
+ <param name="pi_strNroDocSAP">Número del documento SAP</param>
+	<param name="pi_strFechaContableSAP">Fecha contable del documento SAP. Formato YYYYMMDD.</param>
+	<param name="pi_strUsuario">Usuario que ejecutó el proceso SAP y modificación del vouche manual.</param>
+	<param name="pi_strEstacion">Estación que modifica el vouche manual.</param>
+	<param name="pi_strEstadoHost">Nuevo estado del voucher manual, Host = (P:Protegido, C:consistente, S:Contabilizado, Vacío:Pendiente) </param>
+	<param name="pi_strFecha">Fecha de modificación del Host y del voucher manual.Formato YYYYMMDD.</param>
+	<param name="pi_strHora">Hora de modificación del Host y del voucher manual.Formato HHMMSS.</param>
+</member><member name="P:Ferreyros.Contabilidad.Datos.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Ferreyros.Contabilidad.Datos.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:Ferreyros.Contabilidad.Datos.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="M:Ferreyros.Contabilidad.Datos.Voucher.ActualizarSituacion(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String@)">
+	<summary>Actualiza la situación según el año y mes del voucher</summary>
+	<param name="pi_strFechaSit">Fecha de actualización de la situación YYMMDD.</param>
+	<param name="pi_strFechaMod">Fecha de modificación del maestro voucher YYYYMMDD.</param>
+</member><member name="M:Ferreyros.Contabilidad.Datos.Voucher.BuscarVoucher(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>Buscar en el maestro de vouchers por varios filtros</summary>
+	<param name="pi_strAnio">Año del voucher</param>
+	<param name="pi_strMes">Mes del voucher</param>
+	<param name="pi_strSituacion">Situación del voucher en el mes ingresado. 1: Utilizado, P:Procesado, [Vacío/*]:Disponible</param>
+	<param name="pi_strVoucher">Número de voucher</param>
+</member>
+</members>
+</doc>

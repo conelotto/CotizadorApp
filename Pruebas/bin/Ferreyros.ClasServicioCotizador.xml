@@ -6,7 +6,19 @@ Ferreyros.ClasServicioCotizador
 </name>
 </assembly>
 <members>
-<member name="P:Ferreyros.ClasServicioCotizador.My.Resources.Resources.ResourceManager">
+<member name="M:Ferreyros.ClasServicioCotizador.daConsultaAS400.ListarCorporacion(System.String)">
+	<summary>
+ TABLA DE CORPORACION
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ferreyros.ClasServicioCotizador.daConsultaAS400.ListarSucursal(System.String)">
+	<summary>
+ TABLA DE SUCURSAL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Ferreyros.ClasServicioCotizador.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -19,18 +31,6 @@ Ferreyros.ClasServicioCotizador
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
-</member><member name="M:Ferreyros.ClasServicioCotizador.daConsultaAS400.ListarCorporacion(System.String)">
-	<summary>
- TABLA DE CORPORACION
- </summary>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:Ferreyros.ClasServicioCotizador.daConsultaAS400.ListarSucursal(System.String)">
-	<summary>
- TABLA DE SUCURSAL
- </summary>
-	<returns></returns>
-	<remarks></remarks>
 </member>
 </members>
 </doc>
