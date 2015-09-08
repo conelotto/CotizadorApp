@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Ferreyros.Utiles
+</name>
+</assembly>
+<members>
+<member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strGE001">
+	<summary>
+ No se encuentra permitido el tipo de operación
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strGE002">
+	<summary>
+ Registro actualizado
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strGE003">
+	<summary>
+ Registro eliminado
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strGE004">
+	<summary>
+ No se encontro el registro
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strCO001">
+	<summary>
+ La solicitud de cotización ha sido rechazada
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strCO002">
+	<summary>
+ La solicitud de cotización ha sido aprobada
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strCO003">
+	<summary>
+ La cotización ha sido creada
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strCO004">
+	<summary>
+ La solicitud ha sido enviada para su aprobación
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strCO005">
+	<summary>
+ La solicitud requiere aprobación
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strSE001">
+	<summary>
+ El usuario no se encuentra registrado como Aprobador
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strMO001">
+	<summary>
+ Verifique que el modelo este registrado
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strCC001">
+	<summary>
+ Verifique que el contacto este registrado
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strCL001">
+	<summary>
+ Verifique que el cliente este registrado
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strPL001">
+	<summary>
+ Plantilla de cotización no encontrada
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strPL002">
+	<summary>
+ El documento no contiene ningun campo marcador
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Ferreyros.Utiles.Estructuras.MensajesAplicacion.c_strPL003">
+	<summary>
+ Sólo se permiten archivos de extenision .docx
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Ferreyros.Utiles.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Ferreyros.Utiles.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Ferreyros.Utiles.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
